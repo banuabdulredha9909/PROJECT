@@ -1,0 +1,372 @@
+<!Doctype html>
+<html>
+    
+    <head>  
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+    <title>Volunteer </title>
+        <link href="../Css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../Css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="../Css/main.css" rel="stylesheet" type="text/css">
+        <link href="../Css/Responsive.CSS" rel="stylesheet" type="text/css">
+         
+  <style>
+      .book-publish
+      {
+          padding: 100px;
+      }
+      .book-publish .needs-validation
+      {
+         background-color: tan;
+         padding: 60px;
+         /*height:570px;*/
+         border-radius: 20px;
+         border: 2px inset;
+          
+      }
+      .book-publish .form-control ,.book-publish .custom-select ,.book-publish .input-group-text
+      {
+        background-color: white;
+    border: 2px inset white;
+    color: tan;
+    font-weight: bolder;
+    font-size: 16px;
+      }
+      .book-publish label
+      {
+        color: white;
+    font-weight: bold
+      }
+      .book-publish .custom-select option
+      {
+          font-weight:bold;
+      }
+       .book-publish   #preview
+      {
+    overflow:auto;
+    height: 100px;
+    margin: 10px;
+     
+      } 
+      .book-publish .btn-primary 
+      {
+        background-color: transparent;
+    padding: 10px;
+    width: 200px;
+    border: 2px inset #f7ca4c;
+    border-radius: 53px;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    bottom: 2px;
+    left: 6px;
+    color: #f7ca4c;
+      }
+      .book-publish .valid-feedback
+      {
+     font-size: 16px;
+     font-weight: bold;
+      }
+     .book-publish .invalid-feedback
+      {
+      font-size: 15px;
+     font-weight: bold;  
+      }
+      /*.book-publish .needs-validation .volunteer-img
+      {
+     position: relative;
+    left: 594px;
+    bottom: 239px;
+    width: 400px;
+      }*/
+      
+  </style>
+        
+     
+    </head>
+    
+    <body>
+        
+<!--design  upper navbar--> 
+       
+<div class="upper-navbar">
+<div class="container">
+ <div class="row">
+                    
+  
+                    
+ <div class="col-sm text-right icons-upper-navbar info-up-hom">
+                    <span><i class="fa fa-heart" class="upper-navbar-icons"></i><a href="Quotes.html"  >Get Quotes</a></span>&nbsp;&nbsp;&nbsp;
+     <span><a href="login.html">Login</a></span>
+ </div>
+                    
+                    
+                                
+</div>
+                
+</div>
+</div>
+<!--End design  upper navbar--> 
+ <!--********************************************************************************************** -->       
+ 
+        
+ 
+<!--********************************************************************************************** -->          
+<!--   design The main menu -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+               
+<div class="container"> 
+<a class="navbar-brand" href="#">
+         <img src="../images/page-logo.png" style="display: block;width: 100px;height: 100px; position: relative;right: 40%;"/>
+    <span class="first-name">Bean.info</span>
+</a>
+        
+               
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-nav">
+<ul class="navbar-nav ml-auto">
+        
+<li class="nav-item ">
+        <a class="nav-link" href="index.html">Home </a>
+</li>
+      
+ <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle" href="Books.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Books
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Books.html">Browsing</a>
+          <a class="dropdown-item" href="download.html">Download</a>
+         <a class="dropdown-item" href="buybooks.html">Buy Book </a>
+        <a class="dropdown-item" href="latestbooks.html">Latest Books</a>    
+        </div>
+</li>
+        
+ <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle" href="Books.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          library
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="picture-library.html" >Pictures library</a>
+          <a class="dropdown-item" href="audio-library.html">Audio library</a>
+             
+        </div>
+</li>
+    
+ 
+      
+<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Other
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="opinions.html">Opinions</a>
+          <a class="dropdown-item" href="about.html" >About</a>
+          <a class="dropdown-item" href="contact-us.html">Contact us</a>    
+        </div>
+</li>
+    
+</ul>
+    
+  </div>
+            </div>
+</nav>
+         
+ <div class="book-publish">
+  <div class="container">
+    
+     <form class="needs-validation" novalidate>
+  <div class="form-row first-inpt">
+     
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Mobile phone</label>
+      <input type="text" class="form-control" id="validationCustom02" value="+964/00000000" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Your Email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please Write  a email.
+        </div>
+      </div>
+    </div>
+      
+      <div class="col-md-3 mb-3">
+      <label for="validationCustom04">Country</label>
+      <select class="custom-select" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option> Iraq</option>
+        <option>UK </option>
+        <option>Emirat </option>
+        <option>Turkey </option>
+        <option>Oman </option>  
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid Country.
+      </div>
+    </div>
+      
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+        <label for="validationCustom03">Upload a picture</label>
+      <input  type="file" multiple class="form-control file-input"   id="validationCustom03" style="padding: 2px;" required>
+        <div class="invalid-feedback">
+        Please Upload a pictures of the books you want to volunteer with.
+      </div>
+      <div id="preview"></div>
+        
+        
+    </div>
+      
+    
+     
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+ 
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+                 }
+        form.classList.add('was-validated');
+              
+      }, false);
+    });
+  }, false);
+  })();
+     
+</script>
+  </div> 
+     
+ </div>
+ 
+        
+
+        
+
+ <!--Design footer--> 
+ <div class="footer">
+  <div class="container">
+  <div class="row">
+      
+  <div class="col-4 who-us">
+  <h3>
+  <img src="../images/page-logo.png" />
+  <hr>
+  </h3>    
+  <p >The site specializes in publishing all kinds of books, novels and stories under the supervision of the educational initiative code for iraq</p>    
+  </div>
+      
+  <div class="col-4 follow-us">
+  <h3>Follow us <hr></h3>    
+    <ul class="list-unstyled">
+      <li><a href="http://www.facebook.com"><i class="fa fa-facebook "></i></a></li>  
+      <li><a href="http://www.twitter.com"><i class="fa fa-twitter "></i></a></li>
+      <li><a href="http://www.instagram.com"><i class="fa fa-instagram "></i></a></li>      
+      <li><a href="http://www.youtube.com"><i class="fa fa-youtube "></i></a></li>        
+    </ul>  
+  </div> 
+  
+  <div class="col-4 call-us">
+  <h3>call us <hr></h3> 
+    <ul class="list-unstyled call-us">
+      <li class="footer-second-icon"><i class="fa fa-envelope-o " ></i> bean.info@gmail.com</li> 
+      <li class="footer-second-icon"><i class="fa fa-phone " ></i> 0987654321</li>
+      <li class="footer-third-icon"> <i class="fa fa-map-marker" ></i>Iraq-Kut </li>      
+      </ul>   
+  </div>    
+  </div>    
+  </div>    
+  </div>           
+<!--End Design footer-->  
+        
+
+       
+
+        
+
+        
+
+          
+        <script src="../JS/jquery-3.4.1.min.js" ></script>
+         <script src="../JS/poper.js"></script>
+        <script src="../JS/bootstrap.min.js"></script>
+          <script src="../JS/js.js" ></script>
+        <script src="../JS/lightbox-plus-jquery.min.js" type="text/javascript"  ></script>
+        <script src="../JS/javascript.js"></script>
+        <script type="text/javascript">
+     
+    
+    
+   function previewImages() {
+
+  var preview = document.querySelector('#preview');
+  
+  if (this.files) {
+    [].forEach.call(this.files, readAndPreview);
+  }
+
+  function readAndPreview(file) {
+
+    // Make sure `file.name` matches our extensions criteria
+    if (!/\.(jpe?g|png|gif)$/i.test(file.name)) {
+      return alert(file.name + " is not an image");
+    } // else...
+    
+    var reader = new FileReader();
+    
+    reader.addEventListener("load", function() {
+      var image = new Image();
+      image.height = 100;
+      image.title  = file.name;
+      image.src    = this.result;
+      preview.appendChild(image);
+    });
+    
+    reader.readAsDataURL(file);
+    
+  }
+
+}
+
+document.querySelector('.file-input').addEventListener("change", previewImages);
+     
+</script>
+        
+        
+    </body>
+    
+</html>

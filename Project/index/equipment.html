@@ -1,0 +1,324 @@
+<!Doctype html>
+<html>
+    
+    <head>  
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+    <title> my botstrap page </title>
+        <link href="../Css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../Css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="../Css/main.css" rel="stylesheet" type="text/css">
+         
+  <style>
+      .book-publish
+      {
+          padding: 100px;
+      }
+      .book-publish p
+      {
+      text-align: center;
+    color: tan;
+    font-weight: 600;
+    font-size: 20px;
+      }
+      .book-publish .needs-validation
+      {
+         background-color: tan;
+         padding: 60px;
+         height:380px;
+         border-radius: 20px;
+         border: 2px inset;
+          
+      }
+      .book-publish .form-control ,.book-publish .custom-select ,.book-publish .input-group-text
+      {
+     background-color: #d2b48c;
+    border: 2px inset #ca3304;
+    color:#ca3304;
+    font-weight: bolder;
+    font-size: 18px;
+      }
+      .book-publish .custom-select option
+      {
+          font-weight:bold;
+      }
+       .book-publish   #preview
+      {
+    overflow:auto;
+    height: 100px;
+    margin: 10px;
+     
+      } 
+      .book-publish .btn-primary 
+      {
+    background-color: #ca3304;
+    padding: 20px;
+    width: 200px;
+    border: 2px inset white;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+      }
+      .book-publish .valid-feedback
+      {
+     font-size: 16px;
+     font-weight: bold;
+      }
+     .book-publish .invalid-feedback
+      {
+      font-size: 16px;
+     font-weight: bold;  
+      }
+      
+  </style>
+        
+     
+    </head>
+    
+    <body>
+        
+<!--design  upper navbar--> 
+       
+<div class="upper-navbar">
+<div class="container">
+ <div class="row">
+                    
+  
+                    
+ <div class="col-sm text-right icons-upper-navbar">
+                    <span><i class="fa fa-heart" class="upper-navbar-icons"></i><a href="Quotes.html"  >Get Quotes</a></span>&nbsp;&nbsp;&nbsp;
+     <span><a href="login.html">Login</a></span>
+ </div>
+                    
+                    
+                                
+</div>
+                
+</div>
+</div>
+<!--End design  upper navbar--> 
+ <!--********************************************************************************************** -->       
+ 
+        
+ 
+<!--********************************************************************************************** -->          
+<!--   design The main menu -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+               
+<div class="container"> 
+<a class="navbar-brand" href="#">
+         <img src="../images/page-logo.png" style="display: block;width: 100px;height: 100px; position: relative;right: 40%;"/>
+    <span class="first-name">Bean.info</span>
+</a>
+        
+               
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-nav">
+<ul class="navbar-nav ml-auto">
+        
+<li class="nav-item ">
+        <a class="nav-link" href="index.html">Home </a>
+</li>
+      
+ <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle" href="Books.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Books
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Books.html">Browsing</a>
+          <a class="dropdown-item" href="download.html">Download</a>
+         <a class="dropdown-item" href="buybooks.html">Buy Book </a>
+        <a class="dropdown-item" href="latestbooks.html">Latest Books</a>    
+        </div>
+</li>
+        
+ <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="Books.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          library
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="picture-library.html" >Pictures library</a>
+          <a class="dropdown-item" href="audio-library.html">Audio library</a>
+             
+        </div>
+</li>
+    
+ 
+      
+<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Other
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="opinions.html">Opinions</a>
+          <a class="dropdown-item" href="about.html" >About</a>
+          <a class="dropdown-item" href="contact-us.html">Contact us</a>    
+        </div>
+</li>
+    
+</ul>
+    
+  </div>
+            </div>
+</nav>
+         
+ <div class="book-publish">
+  <div class="container">
+      <p>We are ready to suppy any private or public library with many books in various fields and as desired.</p>
+     <form class="needs-validation" novalidate>
+  <div class="form-row">
+    
+      <div class="col-md-4 mb-3">
+      <label for="validationCustom01">The name</label>
+      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+      
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Mobile phone</label>
+      <input type="text" class="form-control" id="validationCustom02" value="+964/00000000" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">The Email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please Write Your email.
+        </div>
+      </div>
+    </div>
+      
+            
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+        <label for="validationCustom03">Address </label>
+      <input  type="text" multiple class="form-control file-input"   id="validationCustom03" required>
+        <div class="invalid-feedback">
+        Please provide a valid Address.
+      </div></div>
+       
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">Country</label>
+      <select class="custom-select" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option> Iraq</option>
+        <option>UK </option>
+        <option>Emirat </option>
+        <option>Turkey </option>
+        <option>Oman </option>  
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>    
+        
+  </div>   
+      
+    
+     
+ 
+   
+  <br><button class="btn btn-primary" type="submit">Send</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+                 }
+        form.classList.add('was-validated');
+              
+      }, false);
+    });
+  }, false);
+  })();
+     
+</script>
+  </div> 
+     
+ </div>
+ 
+        
+
+        
+
+ <!--Design footer--> 
+ <div class="footer">
+  <div class="container">
+  <div class="row">
+      
+  <div class="col-4 who-us">
+  <h3>
+  <img src="../images/page-logo.png" />
+  <hr>
+  </h3>    
+  <p >The site specializes in publishing all kinds of books, novels and stories under the supervision of the educational initiative code for iraq</p>    
+  </div>
+      
+  <div class="col-4 follow-us">
+  <h3>Follow us <hr></h3>    
+    <ul class="list-unstyled">
+      <li><a href="http://www.facebook.com"><i class="fa fa-facebook "></i></a></li>  
+      <li><a href="http://www.twitter.com"><i class="fa fa-twitter "></i></a></li>
+      <li><a href="http://www.instagram.com"><i class="fa fa-instagram "></i></a></li>      
+      <li><a href="http://www.youtube.com"><i class="fa fa-youtube "></i></a></li>        
+    </ul>  
+  </div> 
+  
+  <div class="col-4 call-us">
+  <h3>call us <hr></h3> 
+    <ul class="list-unstyled call-us">
+      <li class="footer-second-icon"><i class="fa fa-envelope-o " ></i> bean.info@gmail.com</li> 
+      <li class="footer-second-icon"><i class="fa fa-phone " ></i> 0987654321</li>
+      <li class="footer-third-icon"> <i class="fa fa-map-marker" ></i>Iraq-Kut </li>      
+      </ul>   
+  </div>    
+  </div>    
+  </div>    
+  </div>              
+<!--End Design footer-->  
+        
+        
+
+        
+
+        
+
+          
+        <script src="../JS/jquery-3.4.1.min.js" ></script>
+         <script src="../JS/poper.js"></script>
+        <script src="../JS/bootstrap.min.js"></script>
+          <script src="../JS/js.js" ></script>
+        <script src="../JS/lightbox-plus-jquery.min.js" type="text/javascript"  ></script>
+        <script src="../JS/javascript.js"></script>
+        <script type="text/javascript">
+     
+    
+    
+ 
+        
+        
+    </body>
+    
+</html>

@@ -1,0 +1,4324 @@
+/*Responsive home page*/
+@media (width:1366px)
+ {
+     .footer .who-us
+     {
+    position: relative;
+    /*bottom:99px;*/
+     }
+     /* volunteer page*/
+     .book-publish #preview
+    {
+    width:1000px;
+    }
+     
+     
+     
+} 
+@media( width:1517px)
+{
+   .footer .who-us
+    {
+    position: relative;
+    bottom: 101px;
+    } 
+    /* format name and logo of project */
+    .navbar .navbar-brand img
+    {
+        position: relative;
+        left:-173px; 
+    }
+    .navbar .navbar-brand .first-name
+    {
+        position: relative;
+        right:135%; 
+    }
+}
+ 
+
+
+/***********************************************************************************************/
+@media(max-width:500px) 
+{
+    /* format name and logo of project */
+    .navbar .navbar-brand img
+    {
+        position: relative;
+        left:5%; 
+    }
+    .navbar .navbar-brand .first-name
+    {
+        position: relative;
+        right:10%; 
+    }
+    
+    /* format slider*/
+    .slider .carousel-item img
+    {
+        position: relative;
+        left: 5px;
+        max-width: 100%;
+    }
+    
+    /* format about page*/
+    .about-as .image img
+    {
+    position: relative;
+    right:18%;
+     }
+    .about-as .description
+    {
+    top: 0;        
+    position: relative;
+    right: 10px;
+    text-align: justify;
+    }
+    .connection {
+    margin: 50px;
+    position: relative;
+        left: 11%;}
+    
+    /*format of affeature bottom of slider*/ 
+    .our-view 
+    {
+        padding: 200px 0 50px;
+    }
+    .features 
+    {
+        position: relative;
+        left: 47px;
+    }
+    .advertisment  .text-left button  
+    {
+     left: -6%;
+    top: 125px;
+    }
+    /* format footer of page*/
+     .footer .who-us img
+    {
+        left: -63%;
+    }
+    .footer .who-us .first-name
+    {
+            
+    left: -13px;
+    }
+    .footer .follow-us h3 ,.footer .call-us h3
+    {
+        top: 240px;
+    }
+    .footer .follow-us ul li
+    {
+        top: 198px;
+        left: 20px;
+         
+    }
+    .footer .call-us ul li
+    {
+        top: 130px;
+        right: 74px;
+        font-size:unset; 
+    }
+    .footer .call-us ul li span
+    {
+        left: 67px;
+        position: relative;
+    }
+    .footer .call-us ul .footer-second-icon 
+    {
+        right: 35px;
+    }
+    .footer .call-us ul .footer-second-icon i
+    {
+        left: 20px;
+    }
+     .footer .call-us ul .footer-third-icon
+    {
+        right:16px;
+    }
+    .footer .call-us ul .footer-third-icon i
+    {
+        left: 2px;
+    }
+    .footer .call-us ul li i
+    {
+        left: 57px;
+        position: relative;
+    }
+    /* buy book page */
+     
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left:-12px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left:-12px;
+    position: relative;
+    }
+    .pricing-table .section-des
+    {
+    width: 100%;
+    font-size: 24px;
+    }
+     
+}
+/***********************************************************************************************/
+@media(min-width:500)
+{
+    /* format footer of page*/
+     .footer .who-us img
+    {
+        left: -63%;
+    }
+    .footer .who-us .first-name
+    {
+            
+    left: -13px;
+    }
+    .footer .follow-us h3 ,.footer .call-us h3
+    {
+        top: 240px;
+    }
+    .footer .follow-us ul li
+    {
+        top: 198px;
+        left: 20px;
+        padding: 30px;
+         
+    }
+    .footer .call-us ul li
+    {
+        top: 130px;
+        right: 74px;
+        font-size:unset; 
+    }
+    .footer .call-us ul li span
+    {
+        left: 67px;
+        position: relative;
+    }
+    .footer .call-us ul .footer-second-icon 
+    {
+        right: 35px;
+    }
+    .footer .call-us ul .footer-second-icon i
+    {
+        left: 20px;
+    }
+     .footer .call-us ul .footer-third-icon
+    {
+        right:16px;
+    }
+    .footer .call-us ul .footer-third-icon i
+    {
+        left: 2px;
+    }
+    .footer .call-us ul li i
+    {
+        left: 57px;
+        position: relative;
+    }
+    /* login page */
+    .choose-us 
+    {
+    width: 101%;
+    }
+    .choose-us img
+    {
+    width:422px;
+    position: relative;
+    right: 55px;
+    height: 539px;
+    top: 63px;
+    }
+    .choose-us .section-login-button
+    {
+    font-size:15px;
+    position: relative;
+    bottom: 20px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 7%;
+    top: 4%;
+    font-weight: 500;
+    color: white;
+    font-size: 19px;
+    } 
+}
+/***********************************************************************************************/
+@media(width:500px)
+{
+     
+     .footer .who-us ,.footer .follow-us   , .footer .call-us  
+    {
+     position: relative;
+    bottom: 80px;
+    }
+    .footer .who-us img
+    {
+        width: 150px;
+        position: relative;
+    }
+    .footer .who-us h3 .first-name
+    {
+     position: relative;
+    left: -21px;
+    }
+    .footer .who-us p
+    {
+        width: 160%;
+        font-size: 13px;
+    }
+    .footer .follow-us ul li
+    {
+        padding:70px;
+    }
+    .footer .call-us ul li
+    {
+    position: relative;
+    top: 211px;
+    font-size: 13px;
+    padding: 12px;
+    }
+    /* format search page*/
+    .search-page .container  
+    {
+        width: 103%;
+    }
+    .search-page .srch
+    {
+    position: relative;
+    left: -7px;
+    }
+    .search-page .srch img
+    {
+    bottom: 17px;
+    position: relative;
+    right:6%;
+    width: 400px;
+    }
+    /* format contact-us page*/
+    .map-border 
+    {
+    position: relative;
+    left:22px;
+    }
+    .contact-info p
+    {
+    position: relative;
+    right:29px;
+    }
+    .contact-info .card
+    {
+        width:70%;
+    }
+      .contact-info button
+    {
+        margin: 0px 0px 10px;
+    }
+    .contact-info  .collapse
+    {
+    position: relative;
+    right:22px;
+    }
+    /*format books page*/
+     
+    .chooses-of-book-page ul  .buy-book-ico    
+    {
+    position: relative;
+    left:-22px;
+    }
+    .chooses-of-book-page ul  .buy-book-ico span    
+    {
+    position: relative;
+    left:5px;
+    }
+    .accordion
+    {
+    width: 669px;
+    position: relative;
+    right: 93px;
+    }
+    
+    /* login page */
+    .choose-us
+    {
+        height: 800px;
+    }
+    .choose-us .col-6:first-child
+    {
+    position: relative;
+    top: 329px;
+    max-width: 200px;
+    left: 20px;
+    background-color: transparent;
+    padding: 0;
+    }
+    .choose-us .col-6:last-child
+    {
+    height:329px;
+    position: relative;
+    width: 350px;
+    right: 185px;
+    background-color: transparent;
+    border: none;    
+    }
+    .choose-us img
+    {
+    width:545px;
+    position: relative;
+    right: 55px;
+    height: 370px;
+    }
+    
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width:197%;
+    margin-left: 40px;
+    bottom: 82px;
+    left: -27px;
+    }
+    .choose-us .register-btn
+    {
+    bottom: 123px;
+    position: relative;
+    width: 127px;
+    right:-97px;
+   border-color: tan;
+    }
+    .choose-us .section-login-button
+    {
+    bottom: 151px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    width: 143%;
+    right:-51px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 16%;
+    top:-24%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    }
+    .choose-us .col-6 h2
+    {
+    position: relative;
+    bottom: 48px;
+    color: wheat;
+    text-align: center;
+    left:111px;
+    padding: 24px;
+    font-size: 22px
+    }
+         
+    .choose-us .modal-of-section-terms-button
+    {
+    height: 400px;
+    width: 400px;
+    top: 144px;
+    }
+    /* buy book page */
+     
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left:-12px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left:-12px;
+    position: relative;
+    }
+    .pricing-table .section-des
+    {
+    width: 100%;
+    font-size: 24px;
+    } 
+    /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:9px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:24px;
+    }
+      .chooses-of-book-page ul .download-icon
+    {
+        position: relative;
+        left: 10px;
+    }
+    .chooses-of-book-page ul .download-icon span
+    {
+    position: relative;
+    left:-4px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left:20px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left:39%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right:-2px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:16px;
+    }
+    /* picture library*/
+    .jjj
+    {
+    width: 136%;
+    position: relative;
+    right: 88px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+    }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left: 21px;
+    } 
+    .opinion-people .carousel-caption 
+    {
+    top: 17%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:160%;
+    position: relative;
+    right:88px
+    }
+    .embed-responsive
+    {
+        height:358%;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:183%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:359px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+     
+     
+}
+/***********************************************************************************************/
+@media(width:568px)
+{
+    /* login page */
+    .choose-us 
+    {
+    width: 101%;
+    }
+    .choose-us img
+    {
+    width:368px;
+    position: relative;
+    right: 55px;
+    height: 539px;
+    top: 63px;
+    }
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width: 114%;
+    margin-left: 40px;
+    bottom: -28px;
+    left: -60px;
+    }
+    .choose-us .section-login-button
+    {
+    font-size:12px;
+    position: relative;
+    bottom: 20px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 7%;
+    top: 4%;
+    font-weight: 500;
+    color: white;
+    font-size:16px;
+    } 
+   .choose-us  .modal-of-section-login-button
+    {
+     width: 300px;
+     left: 160px;
+    }
+    .choose-us  .modal-of-section-terms-button
+    {
+    width:300px;
+    position: relative;
+    left:123px;
+    }
+    /* buy book page */
+    .chooses-of-book-page ul
+    {
+    position: relative;
+    right: 26px;
+    }
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left:-12px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left:-5px;
+    position: relative;
+    }
+      /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:6px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:28px;
+    }
+     
+    .chooses-of-book-page ul .download-icon span
+    {
+    position: relative;
+    left: 1px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left:12px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left:39%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right: 10px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:9px;
+   }
+    /* picture library*/
+    .jjj
+    {
+    width: 131%;
+    position: relative;
+    right: 88px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+   } 
+    /* format download books page*/  
+    .download-page img 
+    {
+    width: 94%;
+    height: 500px;
+    position: relative;
+    left: 3%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:88%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left: 37%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left: 43%;
+    }
+    .download-page .download-section 
+    {
+    width:94%;
+    position: relative;
+    right:4px;
+    }
+    .download-page .transfer-to-other-download-page 
+    {
+    position: absolute;
+    left: 28%;
+    }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left: 21px;
+    } 
+    .opinion-people .carousel-caption 
+    {
+    top: 17%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:144%;
+    position: relative;
+    right:82px
+    }
+    .embed-responsive
+    {
+        height:358%;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:162%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:435px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+}
+
+
+
+
+
+
+
+/***********************************************************************************************/
+@media(max-width:1024px) /*for ipad-pro*/
+{
+     /* format name and logo of project */
+    .navbar .navbar-brand img
+    {
+        position: relative;
+        left:5%; 
+    }
+    .navbar .navbar-brand .first-name
+    {
+        position: relative;
+        right:10%; 
+    }
+    /* format slider*/
+    .slider .carousel-item .img
+    {
+        position: relative;
+        right: 10px;
+        width: 50%;
+    }
+    .slider .carousel-item .carousel-caption
+    {
+    position: relative;
+    bottom:33%;
+    left: 5%;
+    }
+    /* format about page*/
+    .about-as .image img
+    {
+    position: relative;
+    left:10%;
+     }
+    .about-as .description
+    {
+    top: 0;        
+    position: relative;
+    right: 10px;
+    text-align: justify;
+    }
+    .connection {
+    margin: 50px;
+    position: relative;
+    left: 20%;
+    }
+    /*format footer */
+    .footer .follow-us ul li
+    {
+        padding: 14px;
+    }
+    /* login page */
+    .choose-us
+    {
+        height: 800px;
+    }
+    .choose-us .col-6:first-child
+    {
+    position: relative;
+    top: 329px;
+    max-width: 200px;
+    left:138px;
+    background-color: transparent;
+    padding: 0;
+    }
+    .choose-us .col-6:last-child
+    {
+    height:329px;
+    position: relative;
+    width: 350px;
+    right: 185px;
+    background-color: transparent;
+    border: none;    
+    }
+    .choose-us img
+    {
+    width: 658px;
+    position: relative;
+    right: -4px;
+    height: 370px;
+    }
+    
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width:197%;
+    margin-left: 40px;
+    bottom: 82px;
+    left: -27px;
+    }
+    .choose-us .register-btn
+    {
+    bottom: 123px;
+    position: relative;
+    width: 127px;
+    right:-97px;
+   border-color: tan;
+    }
+    .choose-us .section-login-button
+    {
+    bottom: 151px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    width: 143%;
+    right:-51px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 16%;
+    top:-24%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    }
+    .choose-us .col-6 h2
+    {
+    position: relative;
+    bottom: 48px;
+    color: wheat;
+    text-align: center;
+    left:111px;
+    padding: 24px;
+    font-size: 22px
+    }
+         
+    .choose-us .modal-of-section-terms-button
+    {
+    height: 400px;
+    width: 400px;
+    top: 144px;
+    }
+    
+    }
+/***********************************************************************************************/
+@media(width:1024px)
+{
+    /* format Home page*/
+    .slider .carousel-caption p 
+    {
+    width: 70%;
+     }
+    .our-view.text-center
+    {
+    padding: 50px 0;
+    }
+  .features.text-center
+    {
+    left: 35px;
+    position: relative;
+     }
+    .features .col-sm-6.col-lg-3 
+     {
+    margin-right:70px;
+     }
+      .footer .who-us
+    {
+     position: relative;
+    bottom: 100px;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+        height: 650px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 321px;
+    bottom: 255px;
+    width: 406px;
+    top: -211px
+    }
+     .book-publish #preview
+    {
+    width: 638px;
+    }
+    /*format about page*/
+    .connection
+    {
+    margin: 50px;
+    position: relative;
+    left: -6%;
+    }
+    /* format books page*/
+    .feature-work ul li
+    {
+        font-size: 15px;
+    }
+     /* Quotes page */
+    .accordion
+    {
+    width: 117%;
+    position: relative;
+    right: 89px;
+    } 
+    /*login page*/
+    .choose-us img
+    {
+    width: fit-content;
+    height: 600px;
+    position: relative;
+    top: 41px;
+    right: 55px;
+    }
+    /* buy book page */
+    .chooses-of-book-page .buy-book-page .browse-ico
+    {
+    margin-right: 62px;
+    }
+    .pricing-table .section-des
+    {
+    font-size: 18px;
+    width: 105%;
+    }
+    /* picture library*/
+    .jjj
+    {
+    width: 109%;
+    position: relative;
+    right: 76px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom: 89%;
+   }
+    /* vedio library */
+    {
+    position: relative;
+    left: -34px;
+    }
+    /* format download books page*/  
+    .download-page img 
+    {
+    width: 94%;
+    height: 500px;
+    position: relative;
+    left: 3%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left: 91%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left: 37%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left: 43%;
+    }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left:54px;
+    } 
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+            height: 365px;
+    }
+     
+}
+/***********************************************************************************************/
+
+
+
+
+
+
+/***********************************************************************************************/
+@media(width:768px)
+{
+    .slider
+    {
+        margin-bottom: -119px
+    }
+    .our-view
+    {
+     padding: 50px 0;   
+    }
+    .overview button
+    {
+    width: 200px;
+    padding: 22px
+    }
+    .features 
+    {
+        position: relative;
+        left: 163px;
+    }
+    .advertisment .text-left button
+    {
+     width: 190px;
+    left: 1px
+    }
+    .footer .who-us
+    {
+    position: relative;
+    bottom: 100px;
+    }
+    .footer .who-us img
+    {
+    position: relative;
+    right: 48px;
+    }
+    .footer .who-us h3 .first-name
+    {
+     position: relative;
+     left: 5px;    
+    }
+    .footer .call-us ul li
+    {
+        font-size: 18px;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    height: 650px;
+    width: 139%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width: 638px;
+    }
+    /* format books page*/
+    .chooses-of-book-page ul
+    {
+        top: 31px;
+        position: relative;
+    }
+    .chooses-of-book-page ul li
+    {
+        margin: 2px;
+    } 
+    .chooses-of-book-page ul li a
+    {
+    width: 125px;
+    height: 125px;
+    padding: 5px;
+    }
+    
+    .chooses-of-book-page ul .buy-book-ico
+    {
+        margin-left: -30px;
+    }
+    .feature-work ul li
+    {
+        font-size: 11px;
+    }
+    /* login page */
+    .choose-us img
+    {
+    width: 497px;
+    height: 600px;
+    position: relative;
+    top: 41px;
+    right: 75px;
+   }
+    .choose-us .term-cond 
+    {
+    position: relative;
+    right: 6%;
+    top: 3%;
+    }
+    /* buy book page */
+    .chooses-of-book-page .buy-book-page .download-book-ico
+    {
+    margin:0 -45px 0 3px;
+    }
+    .chooses-of-book-page .buy-book-page .download-book-ico span
+    {
+    position: relative;
+    right: 18px;
+    }
+    .pricing-table .section-des 
+    {
+    font-size: 20px;
+    width: 76%;
+    }
+    /* latest book page*/
+    .chooses-of-book-page .buy-book-icon-latest
+    {
+    position: relative;
+    left: 22px;
+    }
+    .latest-post .section-desc
+    {
+        margin-top: 55px;
+    }
+    /* picture library*/
+    .jjj
+    {
+    width:120%;
+    position: relative;
+    right: 81px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom: 89%;
+   }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left:34px;
+    } 
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:265px;
+    width: 114%;
+    position: relative;
+    right: 38px;
+    }
+     
+     
+}
+/***********************************************************************************************/
+@media(max-width:768px) /*for ipad (medium secreen approviate md)*/
+{
+    /* format name and logo of project */
+  .navbar .navbar-brand img
+    {
+        position: relative;
+        left:5%; 
+    }
+    .navbar .navbar-brand .first-name
+    {
+        position: relative;
+        right:10%; 
+    } 
+    /* format slider*/
+    .slider .carousel-item img
+    {
+        position: relative;
+        left: 5px;
+        width: 50%;
+    }
+    .slider .carousel-item .carousel-caption
+    {
+    position: relative;
+    bottom: 60%;
+    left: 5%;
+    }
+    .about-as .image img
+    {
+    position: relative;
+    left:5%;
+     }
+    .about-as .description
+    {
+    top: 0;        
+    position: relative;
+    right: 10px;
+    text-align: justify;
+    }
+    .connection {
+    margin: 50px;
+    position: relative;
+    left: 15%;
+    
+    }
+    /*format footer */
+    
+      .footer .follow-us ul li
+    {
+        padding:50px;
+    }
+    /* format contact-us page*/
+     
+    .contact-info .card
+    {
+        width:50%;
+    }
+    
+    
+    
+}
+/***********************************************************************************************/
+
+
+
+
+
+/***********************************************************************************************/
+@media(width:812px)
+{
+    /* login page */
+    .choose-us img
+    {
+    width: 501px;
+    position: relative;
+    right: 55px;
+    height: 539px;
+    top: 63px;
+    }
+    .choose-us .section-login-button
+    {
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 7%;
+    top: 4%;
+    font-weight: 500;
+    color: white;
+    font-size: 19px;
+    }
+    /* buy book page */
+    .chooses-of-book-page ul  .download-book-ico
+    {
+    position: relative;
+    left: 22px;
+    }
+    .chooses-of-book-page ul li 
+    {
+        margin: 0;
+    }
+    .pricing-table .section-des 
+    {
+    font-size: 20px;
+    width: 76%;
+    }
+    /* latest book page*/
+    .chooses-of-book-page .buy-book-icon-latest
+    {
+    position: relative;
+    left: 22px;
+    }
+    .latest-post .section-desc
+    {
+        margin-top: 55px;
+    }
+    /* picture library*/
+    .jjj
+    {
+    width:120%;
+    position: relative;
+    right: 81px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom: 84%;
+   }
+    /* format download books page*/  
+    .download-page img 
+    {
+    width: 94%;
+    height: 500px;
+    position: relative;
+    left: 3%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left: 91%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left: 37%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left: 43%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:125%;
+    position: relative;
+    right: 77px
+    }
+    .embed-responsive
+    {
+        height: 57%;
+    }
+     /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:136%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:710px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+     
+    
+}
+/***********************************************************************************************/
+                     
+
+
+
+/***********************************************************************************************/
+@media(width:736px)
+{
+    /* login page */
+    .choose-us 
+    {
+    width: 101%;
+    }
+    .choose-us img
+    {
+    width:441px;
+    position: relative;
+    right: 55px;
+    height: 539px;
+    top: 63px;
+    }
+    .choose-us .section-login-button
+    {
+    font-size:16px;
+    position: relative;
+    bottom: 20px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 7%;
+    top: 4%;
+    font-weight: 500;
+    color: white;
+    font-size: 19px;
+    }
+    /* buy book page */
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left: -8px
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left: 2px;
+    position: relative;
+    }
+    .pricing-table .section-des 
+    {
+    font-size: 24px;
+    width: 101%;
+    position: relative;
+    bottom: 20px;    
+    }
+    /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:6px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:24px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left: 14px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left:39%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right: 10px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:5px;
+   }
+    /* picture library*/
+    .jjj
+    {
+    width:122%;
+    position: relative;
+    right: 81px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+   }
+    
+   /* format download books page*/  
+    .download-page img 
+    {
+    width: 94%;
+    height: 500px;
+    position: relative;
+    left: 3%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left: 91%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left: 37%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left: 43%;
+    } 
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left:35px;
+    } 
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:134%;
+    position: relative;
+    right:92px
+    }
+    .embed-responsive
+    {
+        height:172%;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:136%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:625px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+}
+/***********************************************************************************************/
+
+
+
+
+
+
+
+/***********************************************************************************************/
+@media(width:667px)  
+{
+   /* login page */
+    .choose-us 
+    {
+    width: 101%;
+    }
+    .choose-us img
+    {
+    width:422px;
+    position: relative;
+    right: 55px;
+    height: 539px;
+    top: 63px;
+    }
+    .choose-us .section-login-button
+    {
+    font-size:15px;
+    position: relative;
+    bottom: 20px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 7%;
+    top: 4%;
+    font-weight: 500;
+    color: white;
+    font-size: 19px;
+    } 
+    /* buy book page */
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left: -8px
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left: 2px;
+    position: relative;
+    }
+    .pricing-table .section-des 
+    {
+    font-size: 24px;
+    width: 101%;
+    position: relative;
+    bottom: 20px;    
+    }
+       /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:6px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:24px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left: 14px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left:39%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right: 10px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:5px;
+   }
+   /* picture library*/
+    .jjj
+    {
+    width:124%;
+    position: relative;
+    right: 81px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+   } 
+    /* format download books page*/  
+    .download-page img 
+    {
+    width:102%;
+    height: 500px;
+    position: relative;
+    left:-1%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left: 91%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left: 37%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left: 43%;
+    }
+    .download-page .download-section 
+    {
+    width: 125%;
+    position: relative;
+    right: 63px;
+    }
+    .download-page .transfer-to-other-download-page
+    {
+    position: absolute;
+    left:31%;
+    }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left:35px;
+    } 
+    .opinion-people .carousel-caption 
+    {
+    top: 17%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:134%;
+    position: relative;
+    right:79px
+    }
+    .embed-responsive
+    {
+        height:218%;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:148%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:625px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+}
+/***********************************************************************************************/
+
+
+
+
+
+
+
+/***********************************************************************************************/
+@media(width:375px)
+{
+    .slider .carousel-item .carousel-caption
+    {
+    position: relative;
+    bottom:90%;
+    }
+    .slider .carousel-caption p 
+    {
+    width: 60%;
+    }
+    .our-view
+    {
+        padding: 50px 0;
+    }
+    .overview button
+    {
+        width: 190px;
+        padding: 24px;
+    }
+    .advertisment 
+    {
+        overflow: hidden
+    }
+    /* footer of page */
+    .footer .who-us ,.footer .follow-us   , .footer .call-us  
+    {
+     position: relative;
+    bottom: 80px;
+    }
+    .footer .who-us img
+    {
+        width: 150px;
+        position: relative;
+        left: -45px;
+    }
+    .footer .who-us h3 .first-name
+    {
+     position: relative;
+    left: -40px;
+    }
+    .footer .who-us p
+    {
+        width:179%;
+        font-size: 13px;
+    }
+    .footer .follow-us ul li
+    {
+        padding: 20px;
+    }
+    .footer .call-us ul li
+    {
+    position: relative;
+    top: 211px;
+    font-size: 12px;
+    padding: 15px;
+    } 
+    /* format search page*/
+    .search-page .container  
+    {
+        width: 103%;
+    }
+    .search-page .srch
+    {
+    position: relative;
+    left: -6px;
+    }
+    .search-page .srch img
+    {
+    bottom: 17px;
+    position: relative;
+    right: 22%;
+    width: 400px;
+    }
+    /* format contact-us page*/
+    .map-border 
+    {
+    position: relative;
+    left: 19px;
+    }
+    .contact-info .card
+    {
+        width:100%;
+    }
+      .contact-info button
+    {
+        margin: 0px 0px 10px;
+    }
+    /*format books page*/
+    .chooses-of-book-page ul li span
+    {
+        font-size: 20px;
+    }
+    .chooses-of-book-page ul  .buy-book-ico  span  
+    {
+    position: relative;
+    left: 12px;
+    }
+    .chooses-of-book-page ul .latest-book-ico
+    {
+    position: relative;
+    left: 17px;
+    }
+    .chooses-of-book-page ul .download-ico
+    {
+    position: relative;
+    left: 15px;
+    }
+    /* format download books page*/  
+    .download-page img 
+    {
+    width: 290px;
+    height: 500px;
+    position: relative;
+    left: 2%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:82%;
+    }
+    .download-page .date-download-mid
+    {
+    position: relative;
+    left:85%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left:13%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left:26%;
+    }
+    .download-page .transfer-to-other-download-page
+    {
+    position: absolute;
+    left:20%;
+    }
+    .download-page .book-likes
+    {
+    position: relative;
+    left: 17px;
+    top: 10px;
+    }
+    /* Quotes page */
+    .accordion
+    {
+    width: 552px;
+    position: relative;
+    right: 88px;
+    }
+    /* login page */
+    .choose-us
+    {
+        height: 800px;
+    }
+    .choose-us .col-6:first-child
+    {
+    position: relative;
+    top: 329px;
+    max-width: 200px;
+    left: 20px;
+    background-color: transparent;
+    padding: 0;
+    }
+    .choose-us .col-6:last-child
+    {
+    height:329px;
+    position: relative;
+    width: 350px;
+    right: 185px;
+    background-color: transparent;
+    border: none;    
+    }
+    .choose-us img
+    {
+    width: 454px;
+    position: relative;
+    right: 55px;
+    height: 370px;
+    }
+    
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width: 160%;
+    margin-left: 40px;
+    bottom: 82px;
+    left: -27px;
+    }
+    .choose-us .register-btn
+    {
+    bottom: 123px;
+    position: relative;
+    width: 127px;
+    right: -52px;
+   border-color: tan;
+    }
+    .choose-us .section-login-button
+    {
+    bottom: 151px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    width: 143%;
+    right: -21px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 16%;
+    top:-24%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    }
+    .choose-us .col-6 h2
+    {
+    position: relative;
+    bottom: 48px;
+    color: wheat;
+    text-align: center;
+    left: 55px;
+    padding: 24px;
+    font-size: 22px
+    }
+    .modal-of-section-terms-button 
+    {
+    width: 375px;
+    height: 523px;
+    top: 85px;
+   }
+    /* buy book page*/
+    .pricing-table .section-des 
+    {
+    font-size: 20px;
+    width: 103%;
+    }
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left: -8px
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:16px;
+    }
+    /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:6px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:24px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left: 14px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left: 36%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right: 10px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:5px;
+   }
+    /* picture library*/
+    .jjj
+    {
+    width: 544px;
+    position: relative;
+    right: 81px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom: 84%;
+   }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left: 21px;
+    } 
+    .opinion-people .carousel-caption 
+    {
+    top: 17%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width: 187%;
+    position: relative;
+    right: 77px
+    }
+    .embed-responsive
+    {
+        height: 57%;
+    }
+     /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:245%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:250px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+}
+/***********************************************************************************************/
+ @media(max-width:375px) 
+ {
+     /* format slider*/
+    .slider .carousel-item img
+    {
+     position: relative;
+    left: 5px;
+    max-width: 100%;
+    }
+     
+     
+     .about-as .image img
+    {
+    width: 300px;
+     }
+    .about-as .description
+    {
+    top: 0;        
+    position: relative;
+    right: 10px;
+    text-align: justify;
+    }
+     .about-as .connection button
+     {
+         width: 250px;
+        
+     }
+     .connection
+     {
+        margin: 50px;
+        position: relative;
+        left: 6%;  
+     }
+     
+}
+ /***********************************************************************************************/
+
+
+
+
+
+
+/***********************************************************************************************/
+@media(max-width:414px)
+{
+   /* format slider*/
+    .slider .carousel-item img
+    {
+     position: relative;
+    left: 5px;
+    max-width: 100%;
+    }  
+    .about-as .image img
+    {
+    width: 300px;
+     }
+    .about-as .description
+    {
+    top: 0;        
+    position: relative;
+    right: 10px;
+    text-align: justify;
+    }
+     .about-as .connection button
+     {
+         width: 250px;
+        
+     }
+     .connection
+     {
+        margin: 50px;
+        position: relative;
+        left: 6%;  
+     }
+}
+/***********************************************************************************************/
+@media(width:414px)
+{
+   .slider .carousel-item .carousel-caption
+    {
+    position: relative;
+    bottom:90%;
+    }
+    .slider .carousel-caption p 
+    {
+    width: 60%;
+    }
+    .our-view  
+    {
+    padding: 50px 0;
+    }
+    .overview button 
+    {
+    width: 200px;
+    padding: 24px;
+    }
+    .footer .who-us ,.footer .follow-us   , .footer .call-us  
+    {
+     position: relative;
+    bottom: 80px;
+    }
+    .footer .who-us img
+    {
+        width: 150px;
+        position: relative;
+    }
+    .footer .who-us h3 .first-name
+    {
+     position: relative;
+    left: -21px;
+    }
+    .footer .who-us p
+    {
+        width: 160%;
+        font-size: 13px;
+    }
+    .footer .follow-us ul li
+    {
+        padding: 20px;
+    }
+    .footer .call-us ul li
+    {
+    position: relative;
+    top: 211px;
+    font-size: 13px;
+    padding: 15px;     
+    } 
+    /* format search page*/
+    .search-page .container  
+    {
+        width: 103%;
+    }
+    .search-page .srch
+    {
+    position: relative;
+    left: 5px;
+    }
+    .search-page .srch img
+    {
+    bottom: 17px;
+    position: relative;
+    right: 22%;
+    width: 400px;
+    }
+    /* format contact-us page*/
+    .map-border 
+    {
+    position: relative;
+    left: 19px;
+    }
+    .contact-info .card
+    {
+        width:100%;
+    }
+      .contact-info button
+    {
+        margin: 0px 0px 10px;
+    }
+    /*format books page*/
+    .chooses-of-book-page ul li span
+    {
+        font-size: 20px;
+        position: relative;
+        left: 20px;
+    }
+    .chooses-of-book-page ul  .buy-book-ico  span  
+    {
+    position: relative;
+    left: 12px;
+    }
+    .chooses-of-book-page ul .latest-book-ico
+    {
+    position: relative;
+    left: 17px;
+    }
+    .chooses-of-book-page ul .latest-book-ico span
+    {
+    position: relative;
+    left:3px;
+    }
+    .chooses-of-book-page ul .download-ico
+    {
+    position: relative;
+    left: 15px;
+    }
+    /* format download books page*/  
+    .download-page img 
+    {
+    width: 335px;
+    height: 500px;
+    position: relative;
+    left: 2%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:82%;
+    }
+    .download-page .date-download-mid
+    {
+    position: relative;
+    left:85%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left:22%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left:26%;
+    }
+    .download-page .transfer-to-other-download-page
+    {
+    position: absolute;
+    left:24%;
+    }
+    .download-page .book-likes
+    {
+    position: relative;
+    left: 17px;
+    top: 10px;
+    }
+    /* Quotes page */
+    .accordion
+    {
+    width: 586px;
+    position: relative;
+    right: 87px;
+    }
+    /* login page */
+    .choose-us
+    {
+        height: 800px;
+    }
+    .choose-us .col-6:first-child
+    {
+    position: relative;
+    top: 329px;
+    max-width: 200px;
+    left: 20px;
+    background-color: transparent;
+    padding: 0;
+    }
+    .choose-us .col-6:last-child
+    {
+    height:329px;
+    position: relative;
+    width: 350px;
+    right: 185px;
+    background-color: transparent;
+    border: none;    
+    }
+    .choose-us img
+    {
+    width: 454px;
+    position: relative;
+    right: 55px;
+    height: 370px;
+    }
+    
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width: 160%;
+    margin-left: 40px;
+    bottom: 82px;
+    left: -27px;
+    }
+    .choose-us .register-btn
+    {
+    bottom: 123px;
+    position: relative;
+    width: 127px;
+    right: -52px;
+   border-color: tan;
+    }
+    .choose-us .section-login-button
+    {
+    bottom: 151px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    width: 143%;
+    right: -21px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 16%;
+    top:-23%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    }
+    .choose-us .col-6 h2
+    {
+    position: relative;
+    bottom: 48px;
+    color: wheat;
+    text-align: center;
+    left: 55px;
+    padding: 24px;
+    font-size: 22px
+    }
+         
+    .choose-us .modal-of-section-terms-button
+    {
+    height: 400px;
+    width: 400px;
+    top: 144px;
+    }
+    /* buy book page */
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left: -8px
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left: 2px;
+    position: relative;
+    }
+    /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:6px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:24px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left: 14px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left: 36%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right: 10px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:5px;
+   }
+    /* picture library*/
+    .jjj
+    {
+    width:575px;
+    position: relative;
+    right: 81px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+   }
+     /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left: 21px;
+    } 
+    .opinion-people .carousel-caption 
+    {
+    top: 17%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width: 187%;
+    position: relative;
+    right:92px
+    }
+    .embed-responsive
+    {
+        height:62%;
+    }
+     /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:216%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:250px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+}
+/***********************************************************************************************/
+
+
+
+
+
+
+
+
+
+/***********************************************************************************************/
+@media(min-width:320px)
+    {
+      .about-as .description
+    {
+    top: 0;        
+    position: relative;
+    right: -2px;
+    text-align: justify;
+    }
+    .connection
+     {
+        margin: 50px;
+        position: relative;
+        left: -13%;  
+     }    
+    }
+/***********************************************************************************************/
+@media(width:320px)
+{
+   .slider .carousel-item .carousel-caption
+    {
+    position: relative;
+    bottom: 130%;
+    }
+    .slider .carousel-caption p 
+    {
+    width: 70%;
+    } 
+    .overview button 
+    {
+    width: 200px;
+    padding: 20px;
+    }
+    .footer .who-us ,.footer .follow-us   , .footer .call-us  
+    {
+     position: relative;
+    bottom: 80px;
+    }
+    .footer .who-us img
+    {
+        width: 150px;
+        position: relative;
+        left: -44px;
+    }
+    .footer .who-us h3 .first-name
+    {
+     position: relative;
+     left: -37px;
+    }
+    .footer .who-us p
+    {
+        width: 184%;
+        font-size:12px; 
+    }
+    .footer .follow-us ul li
+    {
+        padding: 20px;
+    }
+    .footer .call-us ul li
+    {
+    position: relative;
+    top: 211px;
+    font-size:10px;
+        padding: 15px;
+    }
+    /* format search page*/
+    .search-page .container  
+    {
+        width: 103%;
+    }
+    .search-page .srch
+    {
+    position: relative;
+    left: -4px;
+    }
+    .search-page .srch img
+    {
+    bottom: 17px;
+    position: relative;
+    right: 22%;
+    width:350px;
+    }
+    /* format contact-us page*/
+    .map-border 
+    {
+    position: relative;
+    left: 19px;
+    }
+    .contact-info .card
+    {
+        width:115%;
+    }
+      .contact-info button
+    {
+        margin: 0px 0px 10px;
+    }
+    .contact-info  .collapse
+    {
+    position: relative;
+        right: 13px;
+    }
+    /*format books page*/
+    .chooses-of-book-page ul li span
+    {
+        font-size:15px;
+        position: relative;
+        left: 14px
+    }
+    .chooses-of-book-page ul  .buy-book-ico  span  
+    {
+    position: relative;
+    left:23px;
+    }
+    .chooses-of-book-page ul .latest-book-ico
+    {
+    position: relative;
+    left:4px;
+    }
+    .chooses-of-book-page ul .latest-book-ico span
+    {
+    position: relative;
+    left:17px;
+    }
+    .chooses-of-book-page ul .download-ico
+    {
+    position: relative;
+    left:-7px;
+    }
+    /* format download books page*/  
+    .download-page img 
+    {
+    width: 255px;
+    height: 500px;
+    position: relative;
+    left: -2%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:78%;
+    }
+    .download-page .date-download-mid
+    {
+    position: relative;
+    left:82%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left:7%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left:18%;
+    }
+    .download-page .transfer-to-other-download-page
+    {
+    position: absolute;
+    left:17%;
+    }
+    .download-page .book-likes
+    {
+    position: relative;
+    left: 17px;
+    top: 10px;
+    }
+    /* Quotes page */
+    .accordion
+    {
+    width: 505px;
+    position: relative;
+    right: 92px;
+    }
+    /* login page */
+    .choose-us
+    {
+        height: 800px;
+    }
+    .choose-us .col-6:first-child
+    {
+    position: relative;
+    top: 329px;
+    max-width: 200px;
+    left:-2px;
+    background-color: transparent;
+    padding: 0;
+    }
+    .choose-us .col-6:last-child
+    {
+    height:329px;
+    position: relative;
+    width: 350px;
+    right: 185px;
+    background-color: transparent;
+    border: none;    
+    }
+    .choose-us img
+    {
+    width:377px;
+    position: relative;
+    left: 130px;
+    height: 370px;
+    bottom: 170%;
+    }
+    
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width:149%;
+    margin-left: 40px;
+    bottom: 82px;
+    left: -27px;
+    }
+    .choose-us .register-btn
+    {
+    bottom: 123px;
+    position: relative;
+    width: 127px;
+    right: -52px;
+   border-color: tan;
+    }
+    .choose-us .section-login-button
+    {
+    bottom: 151px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    width: 143%;
+    right: -21px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right:4%;
+    top:-24%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    }
+    .choose-us .col-6 h2
+    {
+    position: relative;
+    bottom: 48px;
+    color: wheat;
+    text-align: center;
+    left: 55px;
+    padding: 24px;
+    font-size: 22px
+    }
+     /* buy book page */
+    .chooses-of-book-page ul
+    {
+    position: relative;
+    right: 26px;
+    }
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left:11px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:-1px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left:15px;
+    position: relative;
+    }
+       /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:6px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:5px;
+    }
+    .chooses-of-book-page ul .download-icon
+    {
+    position: relative;
+    right:15px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left:12px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left:33%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right: 10px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:17px;
+   }
+   /* picture library*/
+    .jjj
+    {
+    width: 157%;
+    position: relative;
+    right:91px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:78%;
+   } 
+     /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left: 21px;
+    } 
+    .opinion-people .carousel-caption 
+    {
+    top: 17%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:228%;
+    position: relative;
+    right:79px
+    }
+    .embed-responsive
+    {
+        height:94%;
+    }
+            /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:344%;
+    position: relative;
+    right:110px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:250px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+    
+}
+/***********************************************************************************************/
+
+
+                        
+
+/***********************************************************************************************/
+@media(max-width:411px)
+    {
+       .connection
+     {
+        margin: 50px;
+        position: relative;
+        left: 1%;  
+     }   
+    }
+/*********************************************************************************************/
+@media(width:411px)
+{
+    .slider .carousel-item .carousel-caption
+    {
+    position: relative;
+    bottom: 90%;
+    }
+    .slider .carousel-caption p 
+    {
+    width: 60%;
+    }
+    .our-view  
+    {
+    padding: 50px 0;
+    }
+    .overview button 
+    {
+    width: 200px;
+    padding: 24px;
+    }
+    .footer .who-us ,.footer .follow-us   , .footer .call-us  
+    {
+     position: relative;
+    bottom: 80px;
+    }
+    .footer .who-us img
+    {
+        width: 150px;
+        position: relative;
+    }
+    .footer .who-us h3 .first-name
+    {
+     position: relative;
+    left: -21px;
+    }
+    .footer .who-us p
+    {
+        width: 160%;
+        font-size: 13px;
+    }
+    .footer .follow-us ul li
+    {
+        padding: 20px;
+    }
+    .footer .call-us ul li
+    {
+    position: relative;
+    top: 211px;
+    font-size: 13px;
+    padding: 12px;
+    }
+    /* format search page*/
+    .search-page .container  
+    {
+        width: 103%;
+    }
+    .search-page .srch
+    {
+    position: relative;
+    left: -5px;
+    }
+    .search-page .srch img
+    {
+    bottom: 17px;
+    position: relative;
+    right:15%;
+    width: 400px;
+    }
+    /* format contact-us page*/
+    .map-border 
+    {
+    position: relative;
+    left: 21px;
+    }
+    .contact-info p
+    {
+    position: relative;
+    right: 24px;
+    }
+    .contact-info .card
+    {
+        width:115%;
+    }
+      .contact-info button
+    {
+        margin: 0px 0px 10px;
+    }
+    .contact-info  .collapse
+    {
+    position: relative;
+    right:22px;
+    }
+    /*format books page*/
+    .chooses-of-book-page ul li span
+    {
+        font-size:15px;
+        position: relative;
+        left: 14px
+    }
+    .chooses-of-book-page ul  .buy-book-ico  span  
+    {
+    position: relative;
+    left:23px;
+    }
+    .chooses-of-book-page ul .latest-book-ico
+    {
+    position: relative;
+    left:4px;
+    }
+    .chooses-of-book-page ul .latest-book-ico span
+    {
+    position: relative;
+    left:15px;
+    }
+    .chooses-of-book-page ul .download-ico
+    {
+    position: relative;
+    left:-7px;
+    }
+    /* Quotes page */
+    .accordion
+    {
+    width:594px;
+    position: relative;
+    right: 92px;
+    } 
+    
+    /* login page */
+    .choose-us
+    {
+        height: 800px;
+    }
+    .choose-us .col-6:first-child
+    {
+    position: relative;
+    top: 329px;
+    max-width: 200px;
+    left: 20px;
+    background-color: transparent;
+    padding: 0;
+    }
+    .choose-us .col-6:last-child
+    {
+    height:329px;
+    position: relative;
+    width: 350px;
+    right: 185px;
+    background-color: transparent;
+    border: none;    
+    }
+    .choose-us img
+    {
+    width: 454px;
+    position: relative;
+    right: 55px;
+    height: 370px;
+    }
+    
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width: 160%;
+    margin-left: 40px;
+    bottom: 82px;
+    left: -27px;
+    }
+    .choose-us .register-btn
+    {
+    bottom: 123px;
+    position: relative;
+    width: 127px;
+    right: -52px;
+   border-color: tan;
+    }
+    .choose-us .section-login-button
+    {
+    bottom: 151px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    width: 143%;
+    right: -21px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 16%;
+    top:-24%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    }
+    .choose-us .col-6 h2
+    {
+    position: relative;
+    bottom: 48px;
+    color: wheat;
+    text-align: center;
+    left: 55px;
+    padding: 24px;
+    font-size: 22px
+    }
+         
+    .choose-us .modal-of-section-terms-button
+    {
+    height: 400px;
+    width: 400px;
+    top: 144px;
+    }
+    /* buy book page */
+    .chooses-of-book-page ul
+    {
+    position: relative;
+    right: 26px;
+    }
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left:9px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left:15px;
+    position: relative;
+    } 
+     /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:6px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:9px;
+    }
+     
+    .chooses-of-book-page ul .download-icon span
+    {
+    position: relative;
+    left:11px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left:20px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left:39%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right:-2px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:16px;
+   }
+    /* picture library*/
+    .jjj
+    {
+    width:575px;
+    position: relative;
+    right: 81px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+   }
+     /* format download books page*/  
+    .download-page img 
+    {
+    width: 94%;
+    height: 500px;
+    position: relative;
+    left: 3%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:84%;
+    }
+    .download-page .date-download-mid
+    {
+    position: relative;
+    left:84%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left:17%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left:28%;
+    }
+    .download-page .download-section 
+    {
+    width:102%;
+    position: relative;
+    right:4px;
+    }
+    .download-page .transfer-to-other-download-page 
+    {
+    position: absolute;
+    left: 28%;
+    }
+    .chooses-of-book-page ul
+    {
+    position: relative;
+    right: 26px;
+    }
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left:-6px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 22px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:-1px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left:15px;
+    position: relative;
+    }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left: 21px;
+    } 
+    .opinion-people .carousel-caption 
+    {
+    top: 17%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:180%;
+    position: relative;
+    right:84px
+    }
+    .embed-responsive
+    {
+        height:358%;
+    }
+     /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:216%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:250px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+}
+/***********************************************************************************************/
+
+
+
+
+
+
+
+
+/***********************************************************************************************/
+
+@media(width:823px)
+{ 
+.choose-us img    
+{
+    position: relative;
+    right: 38px;
+    width: 478px;
+    top: 43px;
+}
+/* buy book page */
+    .chooses-of-book-page ul  .download-book-ico
+    {
+    position: relative;
+    left: 22px;
+    }
+    .chooses-of-book-page ul li 
+    {
+        margin: 0;
+    }
+    .pricing-table .section-des 
+    {
+    font-size: 20px;
+    width: 76%;
+    } 
+    /* latest book page*/
+    .chooses-of-book-page .buy-book-icon-latest
+    {
+    position: relative;
+    left: 22px;
+    }
+    .latest-post .section-desc
+    {
+        margin-top: 55px;
+    }
+    /* picture library*/
+    .jjj
+    {
+        width: 121%;
+    position: relative;
+    right: 88px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+   }
+     /* format download books page*/  
+    .download-page img 
+    {
+    width: 94%;
+    height: 500px;
+    position: relative;
+    left: 3%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:90%;
+    }
+    .download-page .date-download-mid
+    {
+    position: relative;
+    left:90%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left:36%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left:39%;
+    }
+    .download-page .download-section 
+    {
+    width:102%;
+    position: relative;
+    right:4px;
+    }
+    .download-page .transfer-to-other-download-page 
+    {
+    position: absolute;
+    left:38%;
+    }  
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left:34px;
+    } 
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:128%;
+    position: relative;
+    right:85px
+    }
+    .embed-responsive
+    {
+        height:358%;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:136%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:625px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    } 
+}
+/***********************************************************************************************/
+
+
+
+
+
+
+
+/***********************************************************************************************/
+
+@media(width:731px)
+{ 
+.choose-us img    
+{
+    position: relative;
+    right: 61px;
+    width: 457px;
+    top: 43px;
+}
+.choose-us .term-cond
+{
+    position: relative;
+    right: 8%;
+    top:11%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+.choose-us .section-login-button
+    {
+    bottom: 27px;
+    position: relative;
+    color: #ca3304;
+    font-size: 13px;
+    width: 143%;
+    right: 145px;
+    } 
+/* buy book page */
+    .chooses-of-book-page ul
+    {
+    position: relative;
+    right: 26px;
+    }
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left:-13px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left:16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left:1px;
+    position: relative;
+    }     
+    .pricing-table .section-des
+    {
+    font-size: 24px;
+    width: 111%;
+    position: relative;
+    bottom: 30px;
+    }
+    /*latest book page*/
+     .chooses-of-book-page ul  
+    {
+        position: relative;
+        left:6px;
+    }
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:29px;
+    }
+     
+    .chooses-of-book-page ul .download-icon span
+    {
+    position: relative;
+    left:-5px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left:20px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left:39%;
+    }
+    .chooses-of-book-page ul .latest-book 
+    {
+    position: relative;
+    right:11px;
+    }
+     .chooses-of-book-page ul li span
+    {
+     position: relative;
+    left:16px;
+   }
+    /* picture library*/
+    .jjj
+    {
+    width: 124%;
+    position: relative;
+    right: 88px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+    }
+     /* format download books page*/  
+    .download-page img 
+     {
+    width: 94%;
+    height: 500px;
+    position: relative;
+    left: 3%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:90%;
+    }
+    .download-page .date-download-mid
+    {
+    position: relative;
+    left:90%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left:36%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left:39%;
+    }
+    .download-page .download-section 
+    {
+    width: 137%;
+    position: relative;
+    right: 94px;
+    }
+    .download-page .transfer-to-other-download-page 
+    {
+    position: absolute;
+    left:38%;
+    } 
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left:34px;
+    } 
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:128%;
+    position: relative;
+    right:85px
+    }
+    .embed-responsive
+    {
+        height:358%;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:142%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:625px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    } 
+     
+}
+/***********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+/***********************************************************************************************/
+@media(width:360px)
+{
+    .slider .carousel-item .carousel-caption
+    {
+    position: relative;
+    bottom: 120%;
+    }
+    .slider .carousel-caption p 
+    {
+    width: 70%;
+    } 
+    .overview button 
+    {
+    width: 200px;
+    padding: 24px;
+    }
+    .footer .who-us ,.footer .follow-us   , .footer .call-us  
+    {
+     position: relative;
+    bottom: 80px;
+    }
+    .footer .who-us img
+    {
+        width: 150px;
+        position: relative;
+        left: -44px;
+    }
+    .footer .who-us h3 .first-name
+    {
+     position: relative;
+     left: -37px;
+    }
+    .footer .who-us p
+    {
+        width: 184%;
+        font-size: 12px;
+    }
+    .footer .follow-us ul li
+    {
+        padding: 20px;
+    }
+    .footer .call-us ul li
+    {
+    position: relative;
+    top: 211px;
+    font-size:10px;
+    padding: 15px;
+    }
+    /* format search page*/
+    .search-page .container  
+    {
+        width: 103%;
+    }
+    .search-page .srch
+    {
+    position: relative;
+    left: -6px;
+    }
+    .search-page .srch img
+    {
+    bottom: 17px;
+    position: relative;
+    right: 22%;
+    width: 400px;
+    }
+    /* format contact-us page*/
+    .map-border 
+    {
+    position: relative;
+    left:19px;
+    }
+    .contact-info p
+    {
+    position: relative;
+    right:8px;
+    }
+    .contact-info .card
+    {
+        width:115%;
+    }
+      .contact-info button
+    {
+        margin: 0px 0px 10px;
+    }
+    .contact-info  .collapse
+    {
+    position: relative;
+    right:22px;
+    }
+    /*format books page*/
+    .chooses-of-book-page ul li span
+    {
+        font-size:15px;
+        position: relative;
+        left: 14px
+    }
+    .chooses-of-book-page ul  .buy-book-ico  span  
+    {
+    position: relative;
+    left:23px;
+    }
+    .chooses-of-book-page ul .latest-book-ico
+    {
+    position: relative;
+    left:4px;
+    }
+    .chooses-of-book-page ul .latest-book-ico span
+    {
+    position: relative;
+    left:17px;
+    }
+    .chooses-of-book-page ul .download-ico
+    {
+    position: relative;
+    left:-7px;
+    }
+    /* Quotes page */
+    .accordion
+    {
+    width: 549px;
+    position: relative;
+    right: 94px;
+    } 
+    /* login page */
+    .choose-us
+    {
+        height: 800px;
+    }
+    .choose-us .col-6:first-child
+    {
+    position: relative;
+    top: 329px;
+    max-width: 200px;
+    left:-2px;
+    background-color: transparent;
+    padding: 0;
+    }
+    .choose-us .col-6:last-child
+    {
+    height:329px;
+    position: relative;
+    width: 350px;
+    right: 185px;
+    background-color: transparent;
+    border: none;    
+    }
+    .choose-us img
+    {
+    width:435px;
+    position: relative;
+    left: 130px;
+    height: 370px;
+    bottom: 170%;
+    }
+    
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width:173%;
+    margin-left: 40px;
+    bottom: 82px;
+    left: -27px;
+    }
+    .choose-us .register-btn
+    {
+    bottom: 123px;
+    position: relative;
+    width: 127px;
+    right: -52px;
+   border-color: tan;
+    }
+    .choose-us .section-login-button
+    {
+    bottom: 151px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    width: 143%;
+    right: -21px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right:4%;
+    top:-24%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    }
+    .choose-us .col-6 h2
+    {
+    position: relative;
+    bottom: 48px;
+    color: wheat;
+    text-align: center;
+    left: 55px;
+    padding: 24px;
+    font-size: 22px
+    }
+    
+    /* buy book page*/
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    right: 4px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left:25px;
+    position: relative;
+    }
+    /* latest book page */
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:10px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left:28px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left: 33%;
+    }
+    /* picture library*/
+    .jjj
+    {
+    width: 497px;
+    position: relative;
+    right: 81px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom: 84%;
+   }
+       /* format download books page*/  
+    .download-page img 
+    {
+    width:303px;
+    height: 500px;
+    position: relative;
+    left:-3%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:82%;
+    }
+    .download-page .date-download-mid
+    {
+    position: relative;
+    left:85%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left:13%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left:26%;
+    }
+    .download-page .transfer-to-other-download-page
+    {
+    position: absolute;
+    left:20%;
+    }
+    .download-page .book-likes
+    {
+    position: relative;
+    left: 17px;
+    top: 10px;
+    }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left: 21px;
+    } 
+    .opinion-people .carousel-caption 
+    {
+    top: 17%;
+    }
+    /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:210%;
+    position: relative;
+    right:88px
+    }
+    .embed-responsive
+    {
+        height:358%;
+    }
+     /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:262%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:250px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    }
+    
+}
+/***********************************************************************************************/
+
+
+
+
+/***********************************************************************************************/
+
+@media(width:640px)
+{ 
+    /* login page */
+ 
+    .choose-us
+    {
+        height: 800px;
+    }
+    .choose-us .col-6:first-child
+    {
+    position: relative;
+    top: 329px;
+    max-width: 200px;
+    left: 20px;
+    background-color: transparent;
+    padding: 0;
+    }
+    .choose-us .col-6:last-child
+    {
+    height:329px;
+    position: relative;
+    width: 350px;
+    right: 185px;
+    background-color: transparent;
+    border: none;    
+    }
+    .choose-us img
+    {
+    width:545px;
+    position: relative;
+    right: 55px;
+    height: 370px;
+    }
+    
+    .choose-us  .input-group
+    {
+    padding: 10px;
+    width:197%;
+    margin-left: 40px;
+    bottom: 82px;
+    left: -27px;
+    }
+    .choose-us .register-btn
+    {
+    bottom: 123px;
+    position: relative;
+    width: 127px;
+    right:-97px;
+   border-color: tan;
+    }
+    .choose-us .section-login-button
+    {
+    bottom: 151px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    width: 143%;
+    right:-51px;
+    }
+    .choose-us .term-cond
+    {
+    position: relative;
+    right: 16%;
+    top:-24%;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    }
+    .choose-us .col-6 h2
+    {
+    position: relative;
+    bottom: 48px;
+    color: wheat;
+    text-align: center;
+    left:111px;
+    padding: 24px;
+    font-size: 22px
+    }
+         
+    .choose-us .modal-of-section-terms-button
+    {
+    height: 400px;
+    width: 400px;
+    top: 144px;
+    }
+    /* buy book page */
+    .chooses-of-book-page ul
+    {
+    position: relative;
+    right: 26px;
+    }
+    .chooses-of-book-page ul .browse-ico
+    {
+    position: relative;
+    left:-12px;
+    }
+    .chooses-of-book-page ul .browse-ico span
+    {
+    left: 18px;
+    position: relative;
+    }
+    .chooses-of-book-page ul .download-book-ico
+    {
+    position: relative;
+    left: 16px;
+    }
+    .chooses-of-book-page ul  .latest-book-ico 
+    {
+        position: relative;
+        left:20px;
+    }
+    .chooses-of-book-page ul .download-book-ico span
+    {
+    left:-12px;
+    position: relative;
+    }
+    .pricing-table .section-des
+    {
+    width: 100%;
+    font-size: 24px;
+    }
+    /* latest book page */
+    .chooses-of-book-page ul .browse-icon
+    {
+    position: relative;
+    right:31px;
+    }
+    .chooses-of-book-page ul .browse-icon span
+    {
+    position: relative;
+    left:21px;
+    }
+    .latest-post .previous, .latest-post .next 
+    {
+    position: relative;
+    left:38%;
+    }
+    .chooses-of-book-page ul .download-icon
+    {
+    position: relative;
+    left: 10px;
+    }
+    /* picture library*/
+    .jjj
+    {
+    width: 128%;
+    position: relative;
+    right: 89px;
+    }
+    .jjj .carousel-item .carousel-caption
+    {
+    position: absolute;
+    bottom:81%;
+    }
+       /* format download books page*/  
+    .download-page img 
+    {
+    width:451px;
+    height: 500px;
+    position: relative;
+    left: 2%;
+     }
+    .download-page .date-download
+    {
+    position: relative;
+    left:82%;
+    }
+    .download-page .date-download-mid
+    {
+    position: relative;
+    left:85%;
+    }
+    .download-page .download-section .download-des
+    {
+    position: relative;
+    left:30%;
+    }
+    
+    .download-page .download-section .download-des-mid
+    {
+    position: relative;
+    left:33%;
+    }
+    .download-page .transfer-to-other-download-page
+    {
+    position: absolute;
+    left:32%;
+    }
+    .download-page .book-likes
+    {
+    position: relative;
+    left: 17px;
+    top: 10px;
+    }
+    /* opinios page */
+   .opinion-people 
+    {
+    position: relative;
+    left:34px;
+    } 
+     /* audio library page*/
+    .jjj1 #carouselExampleIndicators
+    {
+    height:334px;
+    width:140%;
+    position: relative;
+    right:88px
+    }
+    .embed-responsive
+    {
+        height:358%;
+    }
+    /* format volunteer page*/
+    .book-publish .needs-validation
+    {
+    width:151%;
+    position: relative;
+    right: 106px;
+    }
+     .book-publish .needs-validation .volunteer-img
+    {
+    position: relative;
+    left: 247px;
+    bottom: 223px;
+    width: 200px;
+    }
+    .book-publish #preview
+    {
+    width:625px;
+    }
+     .book-publish .needs-validation .form-check
+    {
+    font-size: 15px;
+    font-weight: 500;
+    } 
+     
+}
+/***********************************************************************************************/

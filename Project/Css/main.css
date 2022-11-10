@@ -1,0 +1,1676 @@
+
+body
+{
+    background-image: url('../images/pat5.png');
+    background-repeat: repeat-y;
+    /* background-color:#00939c; */
+}
+/* formating of design  upper navbar*/
+.upper-navbar
+{
+    /*background-image: url('../images/dots-pattern.png');*/
+    background-color:tan;
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+}
+div#main-nav {
+    position: relative;
+    top: 24px;
+}
+.upper-navbar .info-up-hom
+{
+    margin: 15px 0;
+}
+
+.upper-navbar .icons-upper-navbar span /*formatting of font-size of right side of upper navbar*/
+{
+    font-size: 17px;
+    display: inline-block;
+    
+}
+
+.upper-navbar .icons-upper-navbar span a/*formatting of font-size of right side of upper navbar*/
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.upper-navbar .icons-upper-navbar span a:hover/*formatting of font-size of right side of upper navbar*/
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.upper-navbar .icons-upper-navbar span i  /*to spearte icons that in uppernavbar and make it bigger*/
+{
+    
+    margin-right: 5px;
+    color: white
+     
+}
+
+.upper-navbar .icons-upper-navbar span i:hover /*to change color of icons heart when mouse be near of it*/
+{
+    color: white;
+    
+}
+
+.upper-navbar .col-sm /*to make font bold and give it size for fonts in upper-navbar*/
+{
+    color: wheat;
+    font-weight: bold;
+    left: 94px;
+}
+
+
+ 
+/*End formating of design  upper navbar*/
+
+/* formating of design main menu */
+
+/* تنسيقات اسم المشروع في بداية الصفحة */
+.navbar-brand >span
+{
+    font-family:cursive; 
+}
+.navbar-brand .first-name
+{
+   color:tan; 
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 0 0 1px #dbbb37;
+    position: relative;
+    right: 32%;
+}
+.navbar-brand .last-name
+{
+    color:darkred;
+    font-weight: bold;
+    font-size: 39px;
+    font-family:Segoe Print ;
+    text-shadow: 0 0 10px black; 
+}
+/* تنسيقات اسم المشروع في بداية الصفحة */
+
+
+/* تنسيقات عناصر قاءمة الرئيسية */
+.navbar-nav .nav-link {
+    margin: 5px;
+    font-size: 18px;/*25px*/
+    font-weight: bold;
+}
+/* تنسيقات عناصر قاءمة الرئيسية */
+
+
+/* لون عناصر قاىمة رئيسية */
+.navbar
+{
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:teal;
+    text-shadow: 0 0 10px white;
+}
+ .navbar-light .navbar-nav .active>.nav-link
+{
+    color:teal; /*color of active element*/
+    
+}
+ 
+
+/* لون عناصر قاىمة رئيسية */
+
+
+.navbar .nav-item .dropdown-menu /* background color of menu that appear when press o button next search button */
+{
+    background-color: tan;
+    width: 200px;
+    overflow: hidden;
+}
+li.nav-item {
+    color: teal;
+    padding-left: 145px;
+    
+}
+
+.navbar .nav-item .dropdown-menu a /* font color of menu that appear when press o button next search button */
+{
+    background-color: white;
+    color: tan;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px;
+    width: 200px;
+    text-align: left;
+}
+
+.navbar .nav-item .dropdown-menu a:hover /* change background color and font color when mouse be near of it */
+{
+    background-color:tan;
+    color: white;
+}
+
+/* End  formating of design main menu */
+
+/*<!--********************************************************************************************** -->*/
+
+/*<!--********************************************************************************************** -->*/
+/* formating of design main menu */
+
+.search
+{
+    padding: 50px 0;
+}
+.search .extra-info
+{
+    background-color: tan;
+    padding: 30px;
+    border-radius: 40px;
+}
+ 
+.search .extra-info .btn-outline-secondary /* change color of search icon and button next it to wheat color*/
+{
+    color: tan;
+    background-color:teal;
+}
+.search .extra-info .input-group input
+{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 25px;
+    height: 70px;
+}
+.search .extra-info .dropdown-menu /* background color of menu that appear when press o button next search button */
+{
+   background-color: tan;
+    border: 1px solid #6b6a66
+}
+
+.search .extra-info .dropdown-menu a /* font color of menu that appear when press o button next search button */
+{
+   /* color: wheat;
+    text-transform: capitalize;
+    font-weight: 500;*/
+    background-color: white;
+    color: tan;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px;
+    width: 250px;
+    text-align: left;
+}
+
+.search .extra-info .dropdown-menu a:hover /* change background color and font color when mouse be near of it */
+{
+     
+    color:white;
+    background-color: tan;
+}
+.search .extra-info span:first-child /* this to spearte between our centers and get quotes and used first child to spearte between them*/
+{
+    margin-right: 15px;
+    display: inline-block;
+}
+/* End formating of design main menu */
+
+
+/*<!--********************************************************************************************** -->*/
+
+
+
+/* Design slides of pictures*/
+
+.slider /* change background of slides*/
+{
+    background-color: transparent;
+    margin-bottom:70px; 
+     
+}
+ /*position: absolute;
+    width: 82%;
+    height: 172%;
+     
+    background-color: rgba(0,0,0,.2);
+    z-index: 2;*/
+.slider .carousel-inner .overlay /*make a transparent layer above the slides of pictures*/
+{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.2);
+    z-index: 2;
+ }
+
+ .slider .carousel-item /*to make size of picture in the same with size of slider*/
+{
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+.slider .carousel-item img
+{
+    max-width: 980px;
+    position: relative;
+    left: 39%;
+    border-color: transparent;
+}
+.slider .carousel-caption h5
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #fada84;
+     margin-bottom: 25px;
+}
+.slider .carousel-caption p
+{
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: justify;
+    color:white;
+    text-shadow: 0 0 1px #af3303;
+    font-size: 17px;
+}
+
+.slider .carousel-indicators li /*to change heigh of small scroll bar that used to transfer between pictures*/
+{
+  height: 10px;  
+    cursor: pointer;
+}
+
+
+/*Formating of features*/
+.features 
+{
+   padding : 100px 0;
+}
+.features i
+{
+    /*background: #fff;*/
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 12px;
+    color: teal;
+    
+}
+.features .col-sm-6.col-lg-3 {
+    margin-right: 92px;
+}
+.features h3
+{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: teal;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.features p
+{
+    color: tan;
+    font-weight: 500;
+    font-family: inherit;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.features .button
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color:teal;
+    border-color: white;
+    text-shadow: 0 0 167px white;
+    margin-bottom: 35px;
+}
+.features .button:after
+{
+    font-family: 'FontAwesome';
+    content: "\f040";
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.features .button a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* End Formating of features*/
+
+/*format our view*/
+.our-view
+{
+    padding: 150px 0 50px;
+}
+.our-view h3
+{
+    margin-bottom: 20px;
+    font-size: 21px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 0 0 10px #f4f4f4;
+}
+
+.our-view  p
+{
+    text-align: justify;
+    color: tan;
+    font-weight: 500;
+}
+/*End format our view*/
+
+
+/*formating of company view*/
+.overview
+{
+    background-color: tan;
+    padding: 100px 0;
+}
+.overview h2
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: auto;
+    margin-bottom: 15px;
+    color: white;
+}
+.overview p
+{
+    line-height: 2;
+    font-size: 20px;
+    /* font-style: unset; */
+    width: 80%;
+    margin: 0 auto 20px;
+    color: wheat;
+    font-weight: 500;
+    color: #fada84;
+    text-align: justify;
+    text-shadow: 0 0 1px #fada84;
+    text-transform: capitalize;
+}
+.overview h4
+{
+    margin: 0 auto 40px;
+    letter-spacing: 10px;
+    color: white;
+    text-shadow: 0 0 2px #ca3304;
+}
+.overview button
+{
+    padding: 15px;
+    font-weight: bolder;
+    border: 2px inset #f8ce5a;
+    width: 17%;
+    border-radius: 35px;
+    color: #f8ce5a;
+    text-transform: capitalize;
+    font-size: 19px;
+    background: transparent;
+}
+.overview button a
+{
+    color: #f8ce5a;
+}
+/*End of formating of company view*/
+
+
+
+/*Formating of featured work*/
+
+.feature-work
+{
+    
+    padding: 1px 0 100px;
+}
+.feature-work h2
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: auto;
+    margin-bottom: 15px;
+    color: #a52a2a;
+}
+.feature-work p 
+{
+    line-height: 2;
+    width: 100%;
+    margin: 0 auto 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 19px;
+    color: tan
+}
+
+.feature-work ul
+{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+ }
+.feature-work ul li
+{
+    border: 3px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    -webkit-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+   transition:all .3s ease-in-out;
+    background-color: tan;
+    border-radius: 20px;
+    border: 2px inset white;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.feature-work ul  .active ,.feature-work ul li:hover
+{
+   background-color: teal;
+    cursor: pointer;
+    border-color: white;
+    color: #fada84;
+    font-weight: 500;
+    border: 2px inset #fada84;
+}
+.feature-work .shuffle-imgs .row
+{
+    margin: 0;
+    
+}
+ .feature-work .shuffle-imgs .col-md
+{
+    padding: 0;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+   transition:all .5s ease-in-out;
+}
+.feature-work  .row img
+{
+    max-width:100%;
+    
+}
+
+/* End of Formating of featured work*/
+
+
+/*formattig of latest posts*/
+
+.latest-post
+{
+    
+    padding: 0 0 100px;
+}
+
+
+.latest-post .section-desc 
+{
+    line-height: 2;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto 45px;
+    color: tan;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+.latest-post .card
+{
+    margin-bottom: 30px;
+}
+.latest-post .card .card-title
+{
+    font-size: 14px;
+}
+
+.latest-post .card .card-text
+{
+   font-size: 13px;
+    text-align: justify;
+}
+.latest-post .card   .card-link
+{
+    color: #ca3304;
+    font-weight: 700;
+}
+.latest-post .previous, .latest-post .next
+{
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: tan;
+    position: relative;
+    left: 43%
+}
+.latest-post .text-muted {
+    color: #ca3304!important;
+    font-weight: 700;
+}
+
+/*End of formatting latest post*/
+
+
+
+
+/* formating of opinion of people*/
+.opinion-people /*to make size of picture in the same with size of slider of opinion of people*/
+{
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../images/pat9@2x.png');
+    margin: 100px 0;
+    position: relative;
+    width: 90%;
+    border-radius: 100px;
+    left: 60px;
+    background-color:tan;
+}
+
+
+.opinion-people .overlay /*make a transparent layer above the  pictures of opinion of people*/
+{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,-2.9);
+    z-index: 2;  
+    border-radius: 100px;
+}
+.opinion-people  .carousel-inner
+{
+    position: relative;
+    z-index: 5; /*we make z-index here 5 to make previous and next button above the overlay layer to enable user use these buttons and can put any value that biggest than z-index value of overlay layer*/
+    
+}
+
+.opinion-people .carousel-caption
+{
+  top:20%;  
+}
+
+.opinion-people .carousel-caption img /*formatting of images within opinion-people slider*/
+{
+   width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border:0px solid transparent;
+}
+
+.opinion-people .carousel-caption  h5
+{
+   margin-bottom: 5px; 
+   text-transform: capitalize;
+    color: #fff;
+    text-shadow: 0 0 10px #fff;    
+}
+
+.opinion-people .carousel-caption  h5 + span /*this plus sign + means this formatting for span that come after h5 tag  not for h5 tag*/
+{
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 0 0 1px tan;
+}
+.opinion-people .carousel-caption p
+{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+    bottom: 40%;
+    color: teal;
+    text-shadow: 0 0 10px tan;
+}
+
+.opinion-people .carousel-indicators li /*to change heigh of small scroll bar that used to transfer between pictures in slider of opinions of people*/
+{
+  cursor: pointer;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;    
+background-color: teal;    
+}
+
+ .opinion-people .carousel-control-prev ,.opinion-people .carousel-control-next /*these for put next and previous signs widly position in slider of opinon people*/
+{
+    z-index: 6;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon
+{
+    padding: 15px;
+}
+/*End of formatting opinion of people*/
+
+
+/*Formatting of pricing-table*/
+.pricing-table
+{
+    padding: 100px 0 ;
+}
+.pricing-table .container .title_pricing-table /*this for formating of main title of this feild its pricing table*/
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: auto;
+    margin-bottom: 15px;
+    color: #a52a2a;
+}
+
+.pricing-table .section-des /* this for formatting of description about pricing table that under title*/
+{
+    font-size: 19px;
+    width: 90%;
+    margin: 0 auto 45px;
+    color: tan;
+    font-weight: 500;
+    text-align: justify;
+    position: relative;
+    bottom: 59px
+}
+
+.pricing-table .cards /*this property to sperate between cards when display it in responsive mode*/
+{
+   margin-bottom: 30px; 
+    border: 1px inset tan; /*this for border about each card*/
+}
+
+.pricing-table .card-body img
+{
+   width: 100%;
+    height: 300px;
+    padding-right: 10px;
+}
+
+.pricing-table .cards .card-title /*this for foramtting of main title of each card*/
+{
+    text-transform: capitalize;
+    color:white;
+    font-size: 25px;
+    
+    }
+
+.pricing-table   .card-subtitle /*this for formatting of secondary title in each cards in pricing table*/
+{   
+padding-bottom: 35px;
+font-size: 18px
+}
+.text-muted
+{
+    color:tan!important;;
+}
+
+.pricing-table .cards .card-text /*this formatting for prices boxes in pricing table*/
+{
+  
+    background-color:white;
+    font-size: 30px;
+    color: #08526d;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+
+.pricing-table .cards .exclusive /*this for formatting of price box that different from other with background red and color "white"*/
+{
+    background-color: #f00;
+    color: #fff;
+}
+
+.pricing-table  .backred /*this for formatting of Year word that behaind the slash"/" in prices boxes*/
+{
+  
+    font-size: 15px;
+}
+
+.pricing-table .cards .list-group .list-group-item /*this for delete all border between item of list because in bootstrap libray file  add border to each item of list*/
+{
+    border: none;
+}
+
+.pricing-table .cards .card-link  /* this for two button tat smae with other in background red and color white*/
+{
+    background-color: transparent;
+    color: wheat;
+    padding: 10px;
+    margin: 30px;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    border: 2px inset white;
+    border-radius: 25px;
+}
+ .pricing-table .cards .exclusive-card-link-pricing-table:hover
+{
+    background-color: transparent;
+    color: wheat;
+    padding: 10px;
+    margin: 30px;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    border: 2px inset white;
+    border-radius: 25px;
+}
+
+ 
+.pricing-table .cards .exclusive-card-link-pricing-table , .pricing-table .cards .card-link:hover/*this for button that different from other with background white and color extremely can say blue "#08526d" */
+{
+    background-color: teal;
+    color: #eae5e0;
+    padding: 10px;
+    margin: 30px;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    border-color: tan;
+}
+.pricing-table .previous, .pricing-table .next
+{
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: tan
+}
+
+/*End of formatting of pricing table*/
+
+
+/*Formatting of Choose-us*/
+
+.choose-us
+{
+    padding: 50px 0;
+}
+
+.choose-us img /*this for image in choose us- part*/
+{
+    width:inherit;
+    height: 600px;
+}
+
+.choose-us .col-6 /*this for make image and description take over mode*/
+{
+    padding: 0;
+}
+
+.choose-us .col-6:first-child /*this for formatting of textual part in the right of choose us part and use last-child because the textual part (col-6) is second part of div(row)  */
+{
+    background-color: white;
+    color:teal;
+    padding-top: 60px;
+    text-transform: capitalize;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 0 1px teal;
+
+}
+.choose-us .col-6 h2
+{
+    margin: 30px;
+    font-size: 19px;
+}
+
+.choose-us .col-6:last-child h2 /* for title in textual part*/
+{
+    margin: 40px ;
+}
+.choose-us .col-6:last-child
+{
+    background-color: white;
+}
+.choose-us .section-login-button
+{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    text-transform: capitalize;
+    /* text-shadow: 0 0 2px tan; */
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration-color: teal;
+    color: teal;
+}
+.choose-us .section-login-button:before
+{
+    content: 'if you have account';
+    
+    
+    
+}
+
+.choose-us .input-group
+{
+    padding: 10px;
+    width: 80%;
+    margin-left: 40px;
+}
+.choose-us .input-group-prepend span
+{
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: teal;
+    color: tan;
+}
+.choose-us .input-group input
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+.choose-us .term-cond 
+{
+    position: relative;
+    left: 34%;
+    /* top: 6%; */
+    border: none;
+    text-transform: capitalize;
+    text-decoration: underline;
+    /* text-shadow: 0 0 2px #d2b48c; */
+    color: teal;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-group label {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 1px white;
+}
+.choose-us .modal-content
+{
+    background-color: tan;
+    color: #ca3304;
+    text-shadow: 0 0 1px #ca3304;
+    font-weight: 400;
+    font-size: 15px;
+}
+.choose-us .modal-header
+{
+    background-color:tan;
+}
+.choose-us .modal-header>h5
+{
+    text-shadow: 0 0 10px #fada84;
+    font-family: initial;
+    color: #fada84
+}
+.choose-us .modal-header>button
+{
+    background-color:tan;
+    color: #fff;
+    font-weight: 600;
+    padding: 23px;
+    text-shadow: 0 0 10px white;
+    font-size: 20px;
+}
+.choose-us .modal-body>h1 ,.choose-us .modal-body h3
+{
+    font-size: 25px;
+    font-family: auto;
+    padding: 20px;
+    text-shadow: 0 0 1px white;
+    color: white;
+    
+}
+.choose-us .modal-body p
+{
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0 0 1px white
+    
+}
+.choose-us .modal-body ul
+{
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 1px white;
+    
+}
+.choose-us  .special-ul
+{
+    list-style-type: decimal;
+    padding-top: 10px;
+}
+.choose-us .modal-body ul li
+{
+    padding: 5px;
+}
+.choose-us .modal-footer
+{
+    background-color: tan;
+}
+.choose-us .modal-footer .btn-secondary , .choose-us .modal-footer .btn-primary
+{
+    background: transparent;
+    font-weight: 500;
+    border: 2px inset #fada84;
+    color: #fada84;
+    border-radius: 20px;
+    width: 150px;
+}
+ 
+.choose-us .register-btn /*formatting of button 'browse our website' */
+{
+    padding: 15px;
+    width: 50%;
+    margin: 30px;
+    font-weight: 700;
+    font-size: 17px;
+    border: 2px inset #fada84;
+    /* text-shadow: 0 0 10px #e5e9e9; */
+    text-transform: capitalize;
+    background-color: transparent;
+    color: #fada84;
+    border-radius: 61px;
+     
+}
+.choose-us .register-btn:hover
+{
+    background-color:transparent;
+    color: #cd3b04;
+}
+.choose-us .modal-of-section-login-button .modal-body .form-group input
+{
+    font-size:20px;
+    font-weight: 500;
+}
+/* End of Formatting of Choose-us*/
+
+
+
+/*Formatting of contact-us*/
+
+.contact
+{
+    padding: 10px 0;
+    background-color: #f00;
+    color: wheat;
+}
+
+.contact .text_contact /*for format of text in contactus-part*/
+{
+    font-weight: bold;
+    font-size: 18px
+}
+.contact .button-contact
+{
+    text-decoration: none;
+    border: 3px solid wheat;
+    color: wheat;
+    font-size: 18px;
+    font-weight: bold;
+    padding:10px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+/* End Formatting of contact-us*/
+
+/*format advertisment*/
+.advertisment
+{
+    background-color: tan;
+    overflow: hidden;
+}
+.advertisment img
+{
+    width: 400px;
+    height: 400px;
+}
+.advertisment .text-left h5
+{
+    position: relative;
+    top: 100px;
+    text-transform: capitalize;
+    font-size: 22px;
+  color: #fada84;
+}
+.advertisment .text-left button
+{
+    position: relative;
+    top: 190px;
+    padding: 20px;
+    width: 44%;
+    font-weight: 500;
+    font-size: 20px;
+    left: 125px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 3px inset #fada84;
+}
+.advertisment .text-left button a
+{
+    color: #fada84;
+    text-decoration: none;
+}
+/*End format advertisment*/
+
+ 
+/*Formatting of footer*/
+.footer
+{
+    color: white;
+}
+
+ .footer .who-us h3
+{
+    position: relative;
+    top: 30px;
+    padding: 30px;
+}
+.footer h3 img
+{
+    height: 161px;
+    position: relative;
+    top: 1px;
+    left: 20px;
+}
+.footer .who-us h3 .first-name
+{
+   color:white; 
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 0 0 2px #fff;
+    position: relative;
+    left: 43px;;
+}
+.footer .who-us p
+{
+    padding: 7px;
+    margin-top: 8px;
+    color: tan;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer .follow-us h3 , .footer .call-us h3
+{
+    position: relative;
+    top: 170px;
+    padding: 30px;
+    text-align: center;
+    color: #f0c54e;
+    font-size: 17px;
+}
+.footer .follow-us ul li
+{
+    display: inline;
+    padding: 22px;
+    top: 156px;
+    position: relative;
+    
+}
+.footer .follow-us ul li i
+{
+    margin-bottom: 10px;
+}
+.footer .call-us ul
+{
+    padding: 37px;
+}
+.footer .call-us ul li
+{
+     text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    position: relative;
+    top: 62px;
+    color: tan;
+    font-weight: 500;
+    padding-right: 56px;
+    width: 101%;
+   
+}
+.footer .call-us ul li:first-child
+{
+        margin-top: 36px;
+}
+
+.footer .call-us ul li i , .footer .follow-us ul li i 
+{
+    font-size: 21px;
+    /*background-color: #ca3304;*/
+    padding: 3px 5px 3px 6px;
+    border-radius: 50%;
+    color:tan;
+    border: 1px solid tan;
+    text-shadow: 0 0 4px tan;
+    border-style: groove;
+    margin-right: 10px;
+}
+.footer .call-us h3 hr , .footer .follow-us h3 hr ,.footer .who-us h3 hr 
+{
+    border-color: tan;
+    border-style: double;
+}
+}
+/*End Formatting of footer*/
+
+
+
+
+
+
+/*End Formatting of copyright*/
+
+.copyright
+{
+    background-image: url('../images/dots-pattern.png');
+    padding: 6px;
+    background-color: #ca3304;
+    border: 2px solid tan;
+}
+
+.copyright .owner /* this for format text "ban abdulredha" in copyright section */
+{
+    text-transform: capitalize;
+     font-weight: bold;
+    color: tan;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 8px;
+    
+}
+
+ 
+/* End Formatting of copyright*/
+
+
+
+.chooses-of-book-page
+{
+    
+    color: brown;
+    padding: 20px;
+}
+.chooses-of-book-page ul
+{
+    list-style: none;
+    padding-top: 50px;
+}
+.chooses-of-book-page ul li
+{
+    font-weight: 400;
+    padding: 50px;
+    -webkit-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+   transition:all .3s ease-in-out;
+}
+
+.chooses-of-book-page ul li a
+{
+     
+    padding: 20px;
+    text-align: center;
+    font-size: 53px;
+    height: 99px;
+    width: 99px;
+    margin-left: 23px;
+    color: white;
+    background-color: tan;
+    text-shadow: 0 0 15px #fada84;
+    border: 2px solid tan;
+    border-radius: 75px
+}
+chooses-of-book-page ul li a:hover
+{
+    color:white;
+}
+.chooses-of-book-page ul li a i
+ {
+    position: relative;
+    bottom: 16px;
+    font-size: 41px;
+ }
+ 
+.chooses-of-book-page ul li   span
+{
+    font-weight: bold;
+    padding: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: tan;
+    right: 21px;
+    position: relative;
+    
+}
+.chooses-of-book-page ul  .browse-ico  span
+{
+    padding-left: 45px;
+}
+
+
+/* format contact us page**/
+.map-border
+{
+    border: 10px solid white;
+    width: 90%;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+
+.map-border iframe
+{
+    border: 10px solid tan;
+    border-radius: 10px;
+    width: 100%;
+    line-height: normal;
+    
+}
+
+.contact-info
+{
+    padding: 50px;
+}
+.contact-info button .btn:focus
+{
+    box-shadow: 0 0 0 0.2rem white;
+}
+.contact-info a ,.contact-info button
+{
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: tan;
+    border: 2px inset tan;
+    
+}
+.contact-info a i,.contact-info button i
+{
+    color: white;
+    
+}
+
+.contact-info .card
+{
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    font-size: 20px;
+    bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: tan;
+    border-color: white;
+    color: white;
+    border-style: inset;
+}
+/* end format contact us page*/
+
+
+/*format of about as page*/
+
+.about-as
+{
+    padding: 50px 0;
+}
+.about-as .col 
+{
+    overflow: hidden;
+}
+.about-as img
+{
+    position: relative;
+    right: 7%;
+    height: 71%;
+    width: inherit;
+    /* height: 600px; */
+    bottom: 19%;
+}
+.about-as .description
+{
+    top: 30px;
+    font-weight: 500;
+    color: tan;
+    font-size: 15px;
+    text-align: justify;
+}
+.about-as .description a
+{
+    color: teal;
+    text-decoration: none;
+}
+.connection 
+{
+    margin: 50px;
+    width: 100%;
+}
+
+.about-as .connection button
+{
+    background: transparent;
+    padding: 15px;
+    border: 2px inset #fada84;
+    width: 190px;
+    margin: 10px;
+    font-weight: 500;
+    border-radius: 39px;
+}
+ 
+    
+ 
+.about-as .connection button:hover {
+    border: 2px outset #fada84;
+    padding: 15px;
+    border: 2px inset #ca3304;
+    width: 190px;
+    margin: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    
+}
+.about-as .connection button a
+{
+   color: #fada84;
+}
+
+
+
+/* End format of about as page*/
+
+
+/* format of qoutos page*/
+.accordion
+{
+    padding: 100px;
+}
+
+.accordion .card .main-btn:before
+{
+    font-family: 'FontAwesome';
+    content: "\f1de";
+    font-weight: 500;
+}
+.accordion .card .card-header
+{
+    background-color: tan;
+    
+}
+.accordion .card .btn-link
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    text-transform: capitalize;
+    text-shadow: 0 0 2px white;
+}
+.accordion .card .btn-link:before
+{
+    font-family: 'FontAwesome';
+    content: "\f212";
+}
+.accordion .card .btn-link:hover
+{
+    color: tan;
+}
+.accordion .card .card-header i
+{
+    color: teal;
+    font-size: 24px;
+}
+.accordion .card .card-body
+{
+    background-color:tan;
+}
+.accordion .card .card-body input
+{
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    /*height: 100px;*/
+    background-color:tan;
+    color:white;
+    text-shadow: 0 0 2px #fada84;
+}
+.accordion .modal .modal-footer .message-for-done-copy
+{font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+    right: 20%;
+    display: none;
+}
+/* End format of qoutos page*/
+
+/* format search page*/
+.search-page
+{
+    padding: 100px 0;
+}
+.search-page .srch  
+{
+    background-color: tan;
+    border: 3px inset teal;
+    border-radius: 40px;
+}
+
+.search-page .srch img
+{
+    bottom: 40px;
+    position: relative;
+    right: 10%;
+}
+.search-page .srch p
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #fff;
+    color: teal;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    top: 71px;;
+    position: relative;
+}
+/* End format search page*/
+
+
+/* format download page*/
+.download-page
+{
+    padding: 4px 0 100px;
+}
+.download-page .download-section
+{
+    background-color: teal;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.download-page .download-section .download-des
+{
+    position: relative;
+    left: 43%;
+    cursor: default;
+    color: white;
+    text-transform: capitalize;
+}
+.download-page .download-section .download-des-mid
+{
+    position: relative;
+    left: 41%;
+    cursor: default;
+    color: teal;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+
+.download-page .download-info h5
+{
+   position: relative;
+    left: 50%;
+}
+.download-page .download-header
+{
+    padding: 20px 0;
+}
+.download-page .date-download
+{
+    position: relative;
+    left: 93%;
+    color: white;
+    font-weight: 500;
+}
+.download-page .date-download-mid
+{
+    position: relative;
+    left: 93%;
+    color:teal;
+    font-weight: 500;
+}
+.download-page .down
+{
+    position: relative;
+    bottom: -4px;
+    left: 518px;
+    color: teal;
+    font-size: 20px;
+}
+.download-page h5:before
+{
+    font-family: 'FontAwesome';
+    content: '\f019';
+    color: #fdb200;
+    
+}
+.download-page img
+{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: 12%;
+    border: 2px solid wheat;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: white;
+}
+.download-page .book-likes
+{
+    color: white;
+    text-shadow: 0 0 10px white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.download-page .book-likes:before
+{
+    font-family: 'FontAwesome';
+    content:"\f004";
+    margin-right: 5px;
+    font-size: 20px;
+    color: red;
+  }
+.download-page .transfer-to-other-download-page
+{
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+    left: 40%;
+}
+.download-page .transfer-to-other-download-page li
+{
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0 0 10px white;
+}
+.download-page .transfer-to-other-download-page li a
+{
+    background-color:#ca3304;
+    color: white;
+    border: 3px solid white;
+}
+.download-page .transfer-to-other-download-page .active a
+{
+    color: #fff;
+    background-color: #008080;
+    border-color: #ffffff;
+}
+/*End  format download page*/
+
+
+ 
+ /* format picture library*/
+ .jjj
+           {
+               padding: 100px;
+           }
+           .jjj #carouselExampleControls
+            {
+                border: 2px inset tan;
+                border-radius: 10px;
+            }
+           .jjj .carousel-inner
+           {
+               height: 550px;
+               border-radius: 10px;
+           }
+           .jjj .carousel-item  .carousel-caption
+           {
+                
+               position: absolute;
+                right: 15px;
+                 bottom: 300px;
+                  left: 15px;
+           }
+           .jjj .carousel-item  .carousel-caption a
+           {
+                
+               background-color: tan;
+               background-color: tan;
+               border-radius: 50px;
+               padding: 22px;
+               width: 50px;
+               height: 50px;
+               border: 2px solid white;
+               border-style: outset;
+               text-decoration:none;
+                   
+                
+           }
+           .jjj .carousel-item  .carousel-caption a::before
+           {
+               font-family: 'FontAwesome';
+               content: "\f019";
+               color: red;
+               font-size: 30px;
+           }
+           .jjj .carousel-item img
+           {
+               filter:brightness(0.5);
+               transition: 2s;
+               height: 148%;
+           }
+           .jjj .carousel-item img:hover
+           {
+               filter: grayscale(0);
+               transform: scale(1.1);
+           }
+           
